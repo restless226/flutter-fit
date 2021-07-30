@@ -1,0 +1,351 @@
+name: pbl_fitness_app
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/images/cardio/cardio.jpg
+     - assets/images/gym/gym_2.jpg
+
+     - assets/images/gym/gym.jpg
+     - assets/images/gym/ABS.jpg
+     - assets/images/gym/BACK.jpg
+     - assets/images/gym/BICEP.jpg
+     - assets/images/gym/CHEST.jpg
+     - assets/images/gym/LEGS.jpg
+     - assets/images/gym/SHOULDER.jpg
+     - assets/images/gym/TRICEP.jpg
+
+     - assets/images/gym/back/barbell_row.jpg
+     - assets/images/gym/back/cable_row.jpg
+     - assets/images/gym/back/deadlift.jpg
+     - assets/images/gym/back/decline_pull.jpg
+     - assets/images/gym/back/dumbell_row.jpg
+     - assets/images/gym/back/pull_down.jpg
+     - assets/images/gym/back/pull_up.jpg
+     - assets/images/gym/back/t_bar_row.jpg
+
+     - assets/images/gym/abs/ball.jpg
+     - assets/images/gym/abs/bicycle.jpg
+     - assets/images/gym/abs/crunch.jpg
+     - assets/images/gym/abs/decline_plank.jpg
+     - assets/images/gym/abs/dumbell_crunch.jpg
+     - assets/images/gym/abs/garhammer.jpg
+     - assets/images/gym/abs/hanging_leg.jpg
+     - assets/images/gym/abs/hanging_leg2.jpg
+     - assets/images/gym/abs/knee_raise.jpg
+     - assets/images/gym/abs/knee_twist.jpg
+     - assets/images/gym/abs/plank.jpg
+     - assets/images/gym/abs/russian.jpg
+     - assets/images/gym/abs/russian2.jpg
+     - assets/images/gym/abs/tuck_crunch.jpg
+     - assets/images/gym/abs/v_sit.jpg
+     - assets/images/gym/abs/seated_russian.jpg
+
+     - assets/images/gym/bicep/barbell_curl.jpg
+     - assets/images/gym/bicep/cable_curl.jpg
+     - assets/images/gym/bicep/ez_bar_curl.jpg
+     - assets/images/gym/bicep/hammer_curl.jpg
+     - assets/images/gym/bicep/incline_hammer_curl.jpg
+     - assets/images/gym/bicep/inner_curl.jpg
+     - assets/images/gym/bicep/wide_curl.jpg
+     - assets/images/gym/bicep/zottman_curl.jpg
+
+     - assets/images/gym/chest/barbell.jpg
+     - assets/images/gym/chest/cable_fly.jpg
+     - assets/images/gym/chest/chest_dips.jpg
+     - assets/images/gym/chest/flat_dumbell.jpg
+     - assets/images/gym/chest/incline_dumbell_press.jpg
+     - assets/images/gym/chest/low_incline.jpg
+     - assets/images/gym/chest/machine_press.jpg
+     - assets/images/gym/chest/pec_deck.jpg
+
+     - assets/images/gym/legs/deadlift.jpg
+     - assets/images/gym/legs/high_low.jpg
+     - assets/images/gym/legs/leg_press.jpg
+     - assets/images/gym/legs/lunge.jpg
+     - assets/images/gym/legs/romanian.jpg
+     - assets/images/gym/legs/snatch.jpg
+     - assets/images/gym/legs/split.jpg
+     - assets/images/gym/legs/hack.jpg
+     - assets/images/gym/legs/front_squat.jpg
+     - assets/images/gym/legs/machine.jpg
+
+     - assets/images/gym/shoulder/barbell_overhead.jpg
+     - assets/images/gym/shoulder/barbell_shrugs.jpg
+     - assets/images/gym/shoulder/bent_over.jpg
+     - assets/images/gym/shoulder/dumbell_neutral.webp
+     - assets/images/gym/shoulder/face_pull.webp
+     - assets/images/gym/shoulder/front_raise.jpg
+     - assets/images/gym/shoulder/high_pull.webp
+     - assets/images/gym/shoulder/lateral_rise.jpg
+     - assets/images/gym/shoulder/push_press.jpg
+     - assets/images/gym/shoulder/seated_dumbell.jpg
+     - assets/images/gym/shoulder/snatch_grip.jpg
+     - assets/images/gym/shoulder/trap_raise.webp
+     - assets/images/gym/shoulder/one_arm.jpg
+     - assets/images/gym/shoulder/reverse_cable.jpg
+     - assets/images/gym/shoulder/reverse_pec_deck.jpg
+
+     - assets/images/gym/tricep/bench.jpg
+     - assets/images/gym/tricep/cable.jpg
+     - assets/images/gym/tricep/dip.jpg
+     - assets/images/gym/tricep/parallel.jpg
+     - assets/images/gym/tricep/seated_dumbell.jpg
+     - assets/images/gym/tricep/skull.jpg
+     - assets/images/gym/tricep/weighted.jpg
+     - assets/images/gym/tricep/overhead_extension.jpg
+     - assets/images/gym/tricep/tricep_dip.jpg
+     - assets/images/gym/tricep/kick.jpg
+     - assets/images/gym/tricep/board.jpg
+
+
+
+     - assets/images/yoga/ashtanga.jpg
+     - assets/images/yoga/bikram.jpg
+     - assets/images/yoga/hatha.jpg
+     - assets/images/yoga/iyengar.jpg
+     - assets/images/yoga/jivmukti.jpg
+     - assets/images/yoga/kundalini.jpg
+     - assets/images/yoga/prental.jpg
+     - assets/images/yoga/restorative.jpg
+     - assets/images/yoga/vinyasa.jpg
+
+     - assets/images/yoga/acro/acro.jpg
+     - assets/images/yoga/acro/chair.jpg
+     - assets/images/yoga/acro/down_dog.jpg
+     - assets/images/yoga/acro/fish.jpg
+     - assets/images/yoga/acro/foot_to_hand.jpg
+     - assets/images/yoga/acro/front.jpg
+     - assets/images/yoga/acro/jedi.jpg
+     - assets/images/yoga/acro/leaf.jpg
+     - assets/images/yoga/acro/partner.jpg
+     - assets/images/yoga/acro/plank_on_plank.jpg
+     - assets/images/yoga/acro/press.jpg
+
+     - assets/images/yoga/aerial/aerial.jpg
+     - assets/images/yoga/aerial/chair.jpg
+     - assets/images/yoga/aerial/layback.jpg
+     - assets/images/yoga/aerial/low_lunge.jpg
+     - assets/images/yoga/aerial/massage.jpg
+     - assets/images/yoga/aerial/pike_pull.jpg
+     - assets/images/yoga/aerial/plank.jpg
+     - assets/images/yoga/aerial/shoulder_wrap.jpg
+     - assets/images/yoga/aerial/star.jpg
+
+     - assets/images/yoga/hatha/adho.png
+     - assets/images/yoga/hatha/dhanu.png
+     - assets/images/yoga/hatha/halasana.jpg
+     - assets/images/yoga/hatha/salabh.png
+     - assets/images/yoga/hatha/sarvang.png
+     - assets/images/yoga/hatha/setu.png
+     - assets/images/yoga/hatha/sir.png
+     - assets/images/yoga/hatha/tadasana.png
+     - assets/images/yoga/hatha/uttan.png
+     - assets/images/yoga/hatha/vri.png
+
+     - assets/images/yoga/iyengar/ardha.jpg
+     - assets/images/yoga/iyengar/pari.jpg
+     - assets/images/yoga/iyengar/pari_ardha.jpg
+     - assets/images/yoga/iyengar/pari_parsva.jpg
+     - assets/images/yoga/iyengar/pari_trikon.jpg
+     - assets/images/yoga/iyengar/parsva.jpg
+     - assets/images/yoga/iyengar/parsvottan.jpg
+     - assets/images/yoga/iyengar/prasarita.jpg
+     - assets/images/yoga/iyengar/salamba.jpg
+     - assets/images/yoga/iyengar/sava.jpg
+     - assets/images/yoga/iyengar/setu.jpg
+     - assets/images/yoga/iyengar/trikon.jpg
+     - assets/images/yoga/iyengar/uttan.jpg
+     - assets/images/yoga/iyengar/vi1.jpg
+     - assets/images/yoga/iyengar/vi2.jpg
+     - assets/images/yoga/iyengar/vi3.jpg
+
+     - assets/images/yoga/kundalini/camel.jpg
+     - assets/images/yoga/kundalini/crow.jpg
+     - assets/images/yoga/kundalini/frog.jpg
+     - assets/images/yoga/kundalini/sat_kriya.jpg
+     - assets/images/yoga/kundalini/guru.jpg
+     - assets/images/yoga/kundalini/cobra.jpg
+     - assets/images/yoga/kundalini/stretch.jpg
+
+     - assets/images/yoga/bikram/awkward.jpg
+     - assets/images/yoga/bikram/blow_firm.jpg
+     - assets/images/yoga/bikram/camel.jpg
+     - assets/images/yoga/bikram/cobra.jpg
+     - assets/images/yoga/bikram/dhanu.jpg
+     - assets/images/yoga/bikram/eagle.jpg
+     - assets/images/yoga/bikram/fixed.jpg
+     - assets/images/yoga/bikram/full_locust.jpg
+     - assets/images/yoga/bikram/rabbit.jpg
+     - assets/images/yoga/bikram/savasana.jpg
+     - assets/images/yoga/bikram/spine.jpg
+     - assets/images/yoga/bikram/standing_bow.jpg
+     - assets/images/yoga/bikram/standing_head.jpg
+     - assets/images/yoga/bikram/stick.jpg
+     - assets/images/yoga/bikram/toe.jpg
+     - assets/images/yoga/bikram/tortoise.jpg
+     - assets/images/yoga/bikram/tree.jpg
+     - assets/images/yoga/bikram/trikon.jpg
+     - assets/images/yoga/bikram/wind.jpg
+
+     - assets/images/yoga/jivmukti/bow.jpg
+     - assets/images/yoga/jivmukti/dancing.jpg
+     - assets/images/yoga/jivmukti/hero.jpg
+     - assets/images/yoga/jivmukti/mayur.jpg
+     - assets/images/yoga/jivmukti/monkey.jpg
+
+     - assets/images/yoga/vinyasa/bend.jpg
+     - assets/images/yoga/vinyasa/cat_cow.jpg
+     - assets/images/yoga/vinyasa/side.jpg
+
+     - assets/images/yoga/prental/cat_cow.jpg
+     - assets/images/yoga/prental/hanu.jpg
+     - assets/images/yoga/prental/kona.jpg
+     - assets/images/yoga/prental/mala.jpg
+     - assets/images/yoga/prental/prasarita.jpg
+     - assets/images/yoga/prental/seated.jpg
+     - assets/images/yoga/prental/side.jpg
+     - assets/images/yoga/prental/sufi.jpg
+     - assets/images/yoga/prental/sukh.jpg
+     - assets/images/yoga/prental/supta.jpg
+     - assets/images/yoga/prental/temple.jpg
+     - assets/images/yoga/prental/trikon.jpg
+     - assets/images/yoga/prental/vajra.jpg
+     - assets/images/yoga/prental/vasi.jpg
+     - assets/images/yoga/prental/vi2.jpg
+     - assets/images/yoga/prental/tara.jpg
+
+     - assets/images/yoga/restorative/angle.jpg
+     - assets/images/yoga/restorative/backbend.jpg
+     - assets/images/yoga/restorative/chair.jpg
+     - assets/images/yoga/restorative/child.jpg
+     - assets/images/yoga/restorative/extension.jpg
+     - assets/images/yoga/restorative/hero.jpg
+     - assets/images/yoga/restorative/pigeon.jpg
+     - assets/images/yoga/restorative/twist.jpg
+
+     - assets/images/yoga/siva/anja.jpg
+     - assets/images/yoga/siva/anulom.jpg
+     - assets/images/yoga/siva/ardha_matsy.jpg
+     - assets/images/yoga/siva/backbend.jpg
+     - assets/images/yoga/siva/bala.jpg
+     - assets/images/yoga/siva/bhu.jpg
+     - assets/images/yoga/siva/child.jpg
+     - assets/images/yoga/siva/dhanu.jpg
+     - assets/images/yoga/siva/easy.jpg
+     - assets/images/yoga/siva/hala.jpg
+     - assets/images/yoga/siva/kcc.jpg
+     - assets/images/yoga/siva/low_lunge.jpg
+     - assets/images/yoga/siva/matsya.jpg
+     - assets/images/yoga/siva/pada.jpg
+     - assets/images/yoga/siva/paschi.jpg
+     - assets/images/yoga/siva/rest.jpg
+     - assets/images/yoga/siva/salabh.jpg
+     - assets/images/yoga/siva/sivananda.jpg
+
+     - assets/images/yoga/yin/banana.jpg
+     - assets/images/yoga/yin/butterfly.jpg
+     - assets/images/yoga/yin/cater.jpg
+     - assets/images/yoga/yin/corpse.jpg
+     - assets/images/yoga/yin/dragon_a.jpg
+     - assets/images/yoga/yin/dragon_b.jpg
+     - assets/images/yoga/yin/dragon_c.jpg
+     - assets/images/yoga/yin/root.jpg
+     - assets/images/yoga/yin/sphinx.jpg
+     - assets/images/yoga/yin/swan.jpg
+     - assets/images/yoga/yin/wide_child.jpg
+     - assets/images/yoga/yin/yin.jpg
+     - assets/images/yoga/yin/wing.jpg
+
+     - assets/images/yoga/surya/su1.png
+     - assets/images/yoga/surya/su2.png
+     - assets/images/yoga/surya/su3.png
+     - assets/images/yoga/surya/su4.png
+     - assets/images/yoga/surya/su5.png
+     - assets/images/yoga/surya/su6.png
+     - assets/images/yoga/surya/su7.png
+     - assets/images/yoga/surya/su8.png
+     - assets/images/yoga/surya/su9.png
+     - assets/images/yoga/surya/su10.png
+     - assets/images/yoga/surya/su11.png
+     - assets/images/yoga/surya/su12.png
+     - assets/images/yoga/surya/sn.jpg
+
+     - assets/images/yoga/yoga.jpg
+
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Lato
+       fonts:
+         - asset: assets/fonts/Lato-Regular.ttf
+         - asset: assets/fonts/Lato-Bold.ttf
+           weight: 700
+     - family: Quicksand
+       fonts:
+         - asset: assets/fonts/Quicksand-Bold.ttf
+           weight: 700
+         - asset: assets/fonts/Quicksand-Light.ttf
+         - asset: assets/fonts/Quicksand-Medium.ttf
+         - asset: assets/fonts/Quicksand-Regular.ttf
+
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
