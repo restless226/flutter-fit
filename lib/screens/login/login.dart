@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pbl_fitness_app/components/background.dart';
 import 'package:pbl_fitness_app/screens/register/register.dart';
-
 import '../home_screen.dart';
 
 class LoginScreen extends StatelessWidget {
