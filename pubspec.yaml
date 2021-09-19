@@ -316,9 +316,11 @@ flutter:
 
      - assets/images/yoga/yoga.jpg
 
-
-
-
+     - assets/images/login/bottom1.png
+     - assets/images/login/bottom2.png
+     - assets/images/login/main.png
+     - assets/images/login/top1.png
+     - assets/images/login/top2.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

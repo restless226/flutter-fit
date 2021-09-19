@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pbl_fitness_app/screens/first_page.dart';
 import 'package:pbl_fitness_app/screens/home_screen.dart';
+import 'package:pbl_fitness_app/screens/login/login.dart';
 import 'package:pbl_fitness_app/widgets/dark_theme_widget.dart';
 
 void main() {
@@ -39,7 +40,8 @@ class _MyAppState extends State<MyApp> {
           debugShowCheckedModeBanner: false,
           title: 'Fitness Application',
 
-          home: FirstPage(),
+          // home: FirstPage(),
+          home: LoginScreen(),
         );
       },
     );
