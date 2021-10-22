@@ -1,4 +1,4 @@
-# flutter fitness application
+# flutter fit
 
 A fitness application which provides step by step instructions alongwith images 
 to perform workouts in fitness domains such as Yoga, Gym, Cardio.
