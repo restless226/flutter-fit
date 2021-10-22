@@ -1,11 +1,11 @@
-# flutter fit
+# flutter_fit
 
 • A fitness application which provides step by step instructions alongwith images 
   to perform workouts in fitness domains such as Yoga, Gym, Cardio.
 
 • Implemented a simple and responsive UI alongwith Dark Mode feature.
 
-• Tech stack used: Flutter, Android
+• Tech stack used: Android, Flutter, Dart
 
 See working demo below 👇
 
