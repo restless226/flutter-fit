@@ -1,8 +1,11 @@
 # flutter fit
 
-A fitness application which provides step by step instructions alongwith images 
-to perform workouts in fitness domains such as Yoga, Gym, Cardio.
-Implemented a simple and responsive UI alongwith Dark Mode feature.
+• A fitness application which provides step by step instructions alongwith images 
+  to perform workouts in fitness domains such as Yoga, Gym, Cardio.
+
+• Implemented a simple and responsive UI alongwith Dark Mode feature.
+
+• Tech stack used: Flutter, Android
 
 See working demo below 👇
 
