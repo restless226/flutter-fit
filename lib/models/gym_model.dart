@@ -6,7 +6,7 @@ import 'package:flutter/cupertino.dart';
 //   Advanced,
 // }
 
-class Gym{
+class Gym {
   final String title;
   final String imageUrl;
   final String id;
@@ -14,8 +14,8 @@ class Gym{
   final List<String> description;
   final String muscle; //primary muscle involved
   final String equipment;
-  final int repetitions;   // depends on difficulty
-  final int time;  // in seconds, depends on difficulty
+  final int repetitions; // depends on difficulty
+  final int time; // in seconds, depends on difficulty
 
   const Gym({
     @required this.title,

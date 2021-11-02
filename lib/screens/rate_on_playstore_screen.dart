@@ -7,25 +7,21 @@ class RateOnPlayStoreScreen extends StatelessWidget {
       appBar: AppBar(
         title: Center(
             child: Text(
-              'Share',
-              style: TextStyle(
-                  fontSize: 25,
-                  fontFamily: 'QuickSand',
-                  fontWeight: FontWeight.bold
-              ),
-            )
-        ),
+          'Rate on Playstore',
+          style: TextStyle(
+              fontSize: 20,
+              fontFamily: 'QuickSand',
+              fontWeight: FontWeight.bold),
+        )),
       ),
       body: Container(
         child: Center(
-          child:
-          Text(
-            'Share',
+          child: Text(
+            'Rate on Playstore',
             style: TextStyle(
                 fontSize: 25,
                 fontFamily: 'QuickSand',
-                fontWeight: FontWeight.bold
-            ),
+                fontWeight: FontWeight.bold),
           ),
         ),
       ),

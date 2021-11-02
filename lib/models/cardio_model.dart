@@ -1,16 +1,15 @@
 import 'package:flutter/cupertino.dart';
 
-class Cardio{
+class Cardio {
   final String title;
   final String imageUrl;
   final String id;
   final String difficulty;
   final List<String> description;
   final String equipment;
-  final int repetitions;   // depends on difficulty
-  final int time;  // in seconds, depends on difficulty
+  final int repetitions; // depends on difficulty
+  final int time; // in seconds, depends on difficulty
   final List<String> benefits;
-
 
   const Cardio({
     @required this.title,

@@ -3,10 +3,11 @@ import 'package:pbl_fitness_app/models/yoga_model.dart';
 import 'package:pbl_fitness_app/data/yoga_data.dart';
 
 class SubModuleWidgetYoga extends StatefulWidget {
-
   final String ID;
 
-  SubModuleWidgetYoga(@required this.ID,);
+  SubModuleWidgetYoga(
+    @required this.ID,
+  );
 
   @override
   _SubModuleWidgetYogaState createState() => _SubModuleWidgetYogaState();
@@ -15,41 +16,34 @@ class SubModuleWidgetYoga extends StatefulWidget {
 class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
   @override
   Widget build(BuildContext context) {
-    List<Yoga> _yogaList=YOGA_DATA.where((element){
+    List<Yoga> _yogaList = YOGA_DATA.where((element) {
       return element.id.contains(widget.ID);
     }).toList();
 
-
     print("printing LIST...");
-    for(int i=0;i<_yogaList.length;i++){
+    for (int i = 0; i < _yogaList.length; i++) {
       print(_yogaList.elementAt(i).id);
       print(_yogaList.elementAt(i).title);
       print(_yogaList.elementAt(i).category);
     }
 
-
-
     return Scaffold(
       appBar: AppBar(
         title: Center(
             child: Text(
-              _yogaList.elementAt(0).title,
-              style: TextStyle(
-                  fontSize: 15,
-                  fontFamily: 'QuickSand',
-                  fontWeight: FontWeight.bold
-              ),
-            )
-        ),
+          _yogaList.elementAt(0).title,
+          style: TextStyle(
+              fontSize: 15,
+              fontFamily: 'QuickSand',
+              fontWeight: FontWeight.bold),
+        )),
       ),
-
-
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(4),
           child: Container(
             width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height*1.3,
+            height: MediaQuery.of(context).size.height * 1.3,
             decoration: BoxDecoration(
               border: Border.all(
                 color: Theme.of(context).primaryColor,
@@ -60,8 +54,6 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-
-
                 // ASSET IMAGE
                 ClipRRect(
                   borderRadius: BorderRadius.only(
@@ -75,25 +67,20 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                     child: Image.asset(
                       _yogaList.elementAt(0).imageUrl,
                       fit: BoxFit.cover,
-                      width:MediaQuery.of(context).size.width,
+                      width: MediaQuery.of(context).size.width,
                       // height: 180,
                     ),
                   ),
                 ),
-
-
-
-
                 Padding(
                   padding: EdgeInsets.all(4),
-
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-
-                      Divider(thickness: 1,color: Theme.of(context).accentColor,),
-
-
+                      Divider(
+                        thickness: 1,
+                        color: Theme.of(context).accentColor,
+                      ),
 
                       //TITLE
                       Text(
@@ -115,15 +102,18 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
                             // fontWeight: FontWeight.bold,
-                            fontSize: 15
-                        ),
+                            fontSize: 15),
                         softWrap: true,
                         overflow: TextOverflow.fade,
                       ),
 
-
-                      Divider(thickness: 1,color: Theme.of(context).accentColor,),
-                      SizedBox(height: 8,),
+                      Divider(
+                        thickness: 1,
+                        color: Theme.of(context).accentColor,
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
 
                       // DIFFICULTY
                       Text(
@@ -134,7 +124,6 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                           fontWeight: FontWeight.bold,
                           fontSize: 15,
                           decoration: TextDecoration.underline,
-
                         ),
                         softWrap: true,
                         overflow: TextOverflow.fade,
@@ -146,18 +135,18 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
                             // fontWeight: FontWeight.bold,
-                            fontSize: 15
-                        ),
+                            fontSize: 15),
                         softWrap: true,
                         overflow: TextOverflow.fade,
                       ),
 
-
-                      Divider(thickness: 1,color: Theme.of(context).accentColor,),
-                      SizedBox(height: 8,),
-
-
-
+                      Divider(
+                        thickness: 1,
+                        color: Theme.of(context).accentColor,
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
 
                       //CATEGORY
                       Text(
@@ -179,19 +168,21 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
                             // fontWeight: FontWeight.bold,
-                            fontSize: 15
-                        ),
+                            fontSize: 15),
                         softWrap: true,
                         overflow: TextOverflow.fade,
                       ),
 
-                      Divider(thickness: 1,color: Theme.of(context).accentColor,),
-                      SizedBox(height: 8,),
-
+                      Divider(
+                        thickness: 1,
+                        color: Theme.of(context).accentColor,
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
                     ],
                   ),
                 ),
-
 
                 // DESCRIPTION
                 Padding(
@@ -210,20 +201,21 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                   ),
                 ),
 
-
-
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: ListView.builder(
                       physics: NeverScrollableScrollPhysics(),
                       itemCount: _yogaList[0].description.length,
-                      itemBuilder: (context,index){
+                      itemBuilder: (context, index) {
                         print(_yogaList[0].description[index]);
                         print('');
-                        return Text(_yogaList[0].description.length!=0
-                            ? (index+1).toString()+'. '+_yogaList[0].description[index]
-                            :'description is null',
+                        return Text(
+                          _yogaList[0].description.length != 0
+                              ? (index + 1).toString() +
+                                  '. ' +
+                                  _yogaList[0].description[index]
+                              : 'description is null',
                           style: TextStyle(
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
@@ -237,9 +229,13 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                   ),
                 ),
 
-
-                Divider(thickness: 1,color: Theme.of(context).accentColor,),
-                SizedBox(height: 4,),
+                Divider(
+                  thickness: 1,
+                  color: Theme.of(context).accentColor,
+                ),
+                SizedBox(
+                  height: 4,
+                ),
 
                 //BENEFITS
                 Padding(
@@ -258,19 +254,21 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                   ),
                 ),
 
-
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: ListView.builder(
                       physics: NeverScrollableScrollPhysics(),
                       itemCount: _yogaList[0].benefits.length,
-                      itemBuilder: (context,index){
+                      itemBuilder: (context, index) {
                         print(_yogaList[0].benefits[index]);
                         print('');
-                        return Text(_yogaList[0].benefits.length!=0
-                            ? (index+1).toString()+'. '+_yogaList[0].benefits[index]
-                            :'description is null',
+                        return Text(
+                          _yogaList[0].benefits.length != 0
+                              ? (index + 1).toString() +
+                                  '. ' +
+                                  _yogaList[0].benefits[index]
+                              : 'description is null',
                           style: TextStyle(
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
@@ -284,9 +282,13 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                   ),
                 ),
 
-                Divider(thickness: 1,color: Theme.of(context).accentColor,),
-                SizedBox(height: 4,),
-
+                Divider(
+                  thickness: 1,
+                  color: Theme.of(context).accentColor,
+                ),
+                SizedBox(
+                  height: 4,
+                ),
               ],
             ),
           ),

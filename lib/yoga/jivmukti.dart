@@ -9,35 +9,46 @@ class JivmuktiScreen extends StatelessWidget {
       appBar: AppBar(
         title: Center(
             child: Text(
-              'Jivmukti Yoga',
-              style: TextStyle(
-                  fontSize: 30,
-                  fontFamily: 'QuickSand',
-                  fontWeight: FontWeight.bold
-              ),
-            )
-        ),
+          'Jivmukti Yoga',
+          style: TextStyle(
+              fontSize: 20,
+              fontFamily: 'QuickSand',
+              fontWeight: FontWeight.bold),
+        )),
       ),
-
       body: Container(
         child: ListView(
           padding: const EdgeInsets.all(10),
           children: <Widget>[
-            ModuleWidget(SubModuleWidgetYoga('j1'),'Monkey Pose (Hanumanasana)','assets/images/yoga/jivmukti/monkey.jpg'),
-            SizedBox(height: 8,),
-
-            ModuleWidget(SubModuleWidgetYoga('j2'),'Dancing Shiva Pose (Natrajasana)','assets/images/yoga/jivmukti/dancing.jpg'),
-            SizedBox(height: 8,),
-
-            ModuleWidget(SubModuleWidgetYoga('j3'),'Bow Pose (Dhanurasana)','assets/images/yoga/jivmukti/bow.jpg'),
-            SizedBox(height: 8,),
-
-            ModuleWidget(SubModuleWidgetYoga('j4'),'Peacock Pose (Mayurasana)','assets/images/yoga/jivmukti/mayur.jpg'),
-            SizedBox(height: 8,),
-
-            ModuleWidget(SubModuleWidgetYoga('j5'),'Hero Pose (Virasana)','assets/images/yoga/jivmukti/hero.jpg'),
-            SizedBox(height: 8,),
-
+            ModuleWidget(
+                SubModuleWidgetYoga('j1'),
+                'Monkey Pose (Hanumanasana)',
+                'assets/images/yoga/jivmukti/monkey.jpg'),
+            SizedBox(
+              height: 8,
+            ),
+            ModuleWidget(
+                SubModuleWidgetYoga('j2'),
+                'Dancing Shiva Pose (Natrajasana)',
+                'assets/images/yoga/jivmukti/dancing.jpg'),
+            SizedBox(
+              height: 8,
+            ),
+            ModuleWidget(SubModuleWidgetYoga('j3'), 'Bow Pose (Dhanurasana)',
+                'assets/images/yoga/jivmukti/bow.jpg'),
+            SizedBox(
+              height: 8,
+            ),
+            ModuleWidget(SubModuleWidgetYoga('j4'), 'Peacock Pose (Mayurasana)',
+                'assets/images/yoga/jivmukti/mayur.jpg'),
+            SizedBox(
+              height: 8,
+            ),
+            ModuleWidget(SubModuleWidgetYoga('j5'), 'Hero Pose (Virasana)',
+                'assets/images/yoga/jivmukti/hero.jpg'),
+            SizedBox(
+              height: 8,
+            ),
           ],
         ),
       ),

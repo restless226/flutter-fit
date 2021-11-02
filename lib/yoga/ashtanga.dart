@@ -9,29 +9,29 @@ class AshtangaScreen extends StatelessWidget {
       appBar: AppBar(
         title: Center(
             child: Text(
-              'Ashtanga Yoga',
-              style: TextStyle(
-                  fontSize: 30,
-                  fontFamily: 'QuickSand',
-                  fontWeight: FontWeight.bold
-              ),
-            )
-        ),
+          'Ashtanga Yoga',
+          style: TextStyle(
+              fontSize: 20,
+              fontFamily: 'QuickSand',
+              fontWeight: FontWeight.bold),
+        )),
       ),
-
       body: Container(
         child: ListView(
           padding: const EdgeInsets.all(10),
           children: <Widget>[
-            ModuleWidget(null,'',''),
-            SizedBox(height: 8,),
-
-            ModuleWidget(null,'',''),
-            SizedBox(height: 8,),
-
-            ModuleWidget(null,'',''),
-            SizedBox(height: 8,),
-
+            ModuleWidget(null, '', ''),
+            SizedBox(
+              height: 8,
+            ),
+            ModuleWidget(null, '', ''),
+            SizedBox(
+              height: 8,
+            ),
+            ModuleWidget(null, '', ''),
+            SizedBox(
+              height: 8,
+            ),
           ],
         ),
       ),

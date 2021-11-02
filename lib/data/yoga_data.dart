@@ -1,8 +1,7 @@
 import 'package:pbl_fitness_app/models/yoga_model.dart';
 
 //TODO
-const YOGA_DATA=[
-
+const YOGA_DATA = [
   //TODO
   //VINYASA
   const Yoga(
@@ -27,7 +26,8 @@ const YOGA_DATA=[
       'Engages the core muscles to the maximum, making it strong.',
     ],
     category: 'Vinyasa Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Vasisthasana',
     imageUrl: 'assets/images/yoga/vinyasa/side.jpg',
     id: 'v2',
@@ -39,7 +39,6 @@ const YOGA_DATA=[
       'Place the left foot over the right foot, extend the left arm up, gaze at the extended arm.',
       'Inhale, extend the arm and pull the belly in engaging the core and abdominal muscles and stay in Side Plank Pose for about 4 breaths.',
       'Inhale, bring the arm down and come back to starting position. Relax and repeat with the other side and stay for 4 breaths.',
-
     ],
     benefits: [
       'Vasisthasana strengthens your wrists, forearms, shoulders, and spine.',
@@ -47,7 +46,8 @@ const YOGA_DATA=[
       'This pose tones the abdominal muscles and improves balance, concentration, and focus.',
     ],
     category: 'Vinyasa Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Bidalasana',
     imageUrl: 'assets/images/yoga/vinyasa/cat_cow.jpg',
     id: 'v3',
@@ -61,22 +61,15 @@ const YOGA_DATA=[
       'Now inhale and arch your back in the opposite direction.',
       'Arch your head, neck and shoulders upwards and backwards; and look up .',
       'Repeat this process, as many times as you are comfortable.',
-
     ],
     benefits: [
       'Improves the flexibility of the spine.',
       'Improves the prana in the body while flexing the spine.',
       'Relieves tensions around the lower back, middle back, neck and shoulders.',
       'Engages the core muscles to the maximum, making it strong.',
-
     ],
     category: 'Vinyasa Yoga',
   ),
-
-
-
-
-
 
   //HATHA
   const Yoga(
@@ -95,10 +88,10 @@ const YOGA_DATA=[
       'Strengthens biceps and triceps.',
       'Helps create stability in the shoulder joints.',
       'Tones abdomen and hips.',
-
     ],
     category: 'Hatha Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Vrikshasana',
     imageUrl: 'assets/images/yoga/hatha/vri.png',
     id: 'h2',
@@ -109,39 +102,38 @@ const YOGA_DATA=[
       'Raise the right leg up and place it on the left thigh similar to the leg position in Ardha Padmasana.',
       'Breathe normally. Hold the position.',
       'Release the right leg down.',
-
     ],
     benefits: [
       'It strengthens the legs, and opens the hips.',
       'It improves your neuromascular coordination.',
       'It helps with balance and endurance.',
       'It improves alertness and concentration.',
-
     ],
     category: 'Hatha Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Adho Mukh Swanasana',
     imageUrl: 'assets/images/yoga/hatha/adho.png',
     id: 'h3',
     difficulty: '',
     description: [
-    'Kneel on the floor, keeping hip-width distance between your knees.',
-    'Incline forward placing the hands on the floor right under the shoulders. Keep thighs and arms perpendicular to the floor.',
-    'Press the hands into the ground. Curl the toes, exhale and gently lift the hips taking the knees away from the floor, face downward.',
-    'Keep the knees and elbows bent for a while. Take 3 breaths.',
-    'Straighten both the elbow and knees, heels touching the floor, ears touching the inner arms. Look at the navel.',
-    'Remain in this position for as long as you feel comfortable. Take deep breaths.',
-    'To come back lift the head, bend the knees and gently sit on the floor/mat. Take slow and long breaths.'
+      'Kneel on the floor, keeping hip-width distance between your knees.',
+      'Incline forward placing the hands on the floor right under the shoulders. Keep thighs and arms perpendicular to the floor.',
+      'Press the hands into the ground. Curl the toes, exhale and gently lift the hips taking the knees away from the floor, face downward.',
+      'Keep the knees and elbows bent for a while. Take 3 breaths.',
+      'Straighten both the elbow and knees, heels touching the floor, ears touching the inner arms. Look at the navel.',
+      'Remain in this position for as long as you feel comfortable. Take deep breaths.',
+      'To come back lift the head, bend the knees and gently sit on the floor/mat. Take slow and long breaths.'
     ],
     benefits: [
       'Tones your core and strengthens your bones.',
       'Works the back of your legs.',
       'Improves blood flow to the brain.',
       'Strengthens your arms and improves your body posture.',
-
     ],
     category: 'Hatha Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Setu Bandhasana',
     imageUrl: 'assets/images/yoga/hatha/setu.png',
     id: 'h4',
@@ -152,18 +144,16 @@ const YOGA_DATA=[
       'Lift such that your chin is touching your chest, without any movement or effort. Inhale and lift your torso is little up.',
       'Your thighs should be parallel to the floor. Hold on to your breath for a few seconds and release.',
       'Repeat the process a few times.',
-
-
     ],
     benefits: [
       'Stretches the chest, neck, spine, and hips.',
       'Strengthens the back, buttocks, and hamstrings.',
       'Improves circulation of blood.',
       'Helps alleviate stress and mild depression.',
-
     ],
     category: 'Hatha Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Halasana',
     imageUrl: 'assets/images/yoga/hatha/halasana.png',
     id: 'h5',
@@ -179,10 +169,10 @@ const YOGA_DATA=[
       'Stimulates the abdominal organs and the thyroid gland.',
       'Stretches the shoulders and spine.',
       'Helps relieve the symptoms of menopause.',
-
     ],
     category: 'Hatha Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Sirsana',
     imageUrl: 'assets/images/yoga/hatha/sir.png',
     id: 'h6',
@@ -196,17 +186,16 @@ const YOGA_DATA=[
       'Slowly, bend your knees bringing the heels near your buttocks.',
       'Slowly raise the legs either one by one or together, in the vertical position. The body must be straight. This is the final position.',
       'Hold the pose for as long as it feels comfortable, breathing normally.',
-
     ],
     benefits: [
       'Calms the brain and helps relieve stress and mild depression.',
       'Stimulates the pituitary and pineal glands.',
       'Strengthens the arms, legs, and spine.',
       'Strengthens the lungs.',
-
     ],
     category: 'Hatha Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Salabhasana',
     imageUrl: 'assets/images/yoga/hatha/salabh.png',
     id: 'h7',
@@ -223,10 +212,10 @@ const YOGA_DATA=[
       'Stretches the shoulders, chest, belly, and thighs.',
       'Improves posture.',
       'Stimulates abdominal organs.',
-
     ],
     category: 'Hatha Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Sarvangasana',
     imageUrl: 'assets/images/yoga/hatha/sarvang.png',
     id: 'h8',
@@ -237,17 +226,16 @@ const YOGA_DATA=[
       'Bring the legs towards the head by raising the buttocks up.',
       'Raise the legs; abdomen and chest try to form a straight line.',
       'Place the palms on your back for support.',
-
     ],
     benefits: [
       'Calms the brain and helps relieve stress and mild depression.',
       'Stimulates the thyroid and prostate glands and abdominal organs.',
       'Stretches the shoulders and neck.',
       'Tones the legs and buttocks.',
-
     ],
     category: 'Hatha Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Dhanurasana',
     imageUrl: 'assets/images/yoga/hatha/dhanu.png',
     id: 'h9',
@@ -259,21 +247,15 @@ const YOGA_DATA=[
       'Hold the pose for 12-15 seconds, paying attention to your breath as you take long, deep ones.',
       'Slowly bring your chest and legs back to the ground, release your hold on the ankles, and relax with your hands on the side.',
       'Repeat for a few sets.',
-
     ],
     benefits: [
       'Effective in weight loss.',
       'Improves digestion and appetite.',
       'Helps to cure dyspepsia (obesity), rheumatism and gastrointestinal problems.',
       'Cures constipation.',
-
     ],
     category: 'Hatha Yoga',
   ),
-
-
-
-
 
   //ASHTANGA
   const Yoga(
@@ -294,10 +276,10 @@ const YOGA_DATA=[
       'Improves digestion and appetite.',
       'Helps to cure dyspepsia (obesity), rheumatism and gastrointestinal problems.',
       'Cures constipation.',
-
     ],
     category: 'Ashtanga Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Dhanurasana',
     imageUrl: 'assets/images/yoga/ashtanga/dhanu.png',
     id: 'a2',
@@ -309,34 +291,24 @@ const YOGA_DATA=[
       'Hold the pose for 12-15 seconds, paying attention to your breath as you take long, deep ones.',
       'Slowly bring your chest and legs back to the ground, release your hold on the ankles, and relax with your hands on the side.',
       'Repeat for a few sets.',
-
     ],
     benefits: [
       'Effective in weight loss.',
       'Improves digestion and appetite.',
       'Helps to cure dyspepsia (obesity), rheumatism and gastrointestinal problems.',
       'Cures constipation.',
-
     ],
     category: 'Ashtanga Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: '',
     imageUrl: '',
     id: 'a3',
     difficulty: '',
-    description: [
-
-    ],
-    benefits: [
-
-    ],
+    description: [],
+    benefits: [],
     category: 'Ashtanga Yoga',
   ),
-
-
-
-
-
 
   //BIKRAM
 
@@ -357,10 +329,10 @@ const YOGA_DATA=[
       'Utkatasana strengthens the thighs and ankles, while toning the shoulders, butt, hips, and back.',
       'It stretches the Achilles tendons and shins, and is known to be therapeutic for flat feet.',
       'Utkatasana also stretches the shoulders and opens the chest.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Garurasana',
     imageUrl: 'assets/images/yoga/bikram/eagle.jpg',
     id: 'bkm2',
@@ -373,17 +345,16 @@ const YOGA_DATA=[
       'Wrap the left forearm around and under the right forearm. Rest your left hand’s fingers firmly on your right palm.',
       'Hold the pose for 15 to 20 seconds taking deep breaths.',
       'Come back in starting position. Take 3 deep and long breaths, practice from the other side by interchanging the position.',
-
     ],
     benefits: [
       'Strengthens and stretches the ankles and calves.',
       'Stretches the thighs, hips, shoulders, and upper back.',
       'Improves concentration.',
       'Improves sense of balance.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Dandayamana-Janushirasana',
     imageUrl: 'assets/images/yoga/bikram/standing_head.jpg',
     id: 'bkm3',
@@ -401,35 +372,34 @@ const YOGA_DATA=[
       'Improves concentration.',
       'Unifies the mind and body.',
       'Tightens the abdominal and thigh muscles.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Dandayamana-Dhanurasana',
     imageUrl: 'assets/images/yoga/bikram/standing_bow.jpg',
     id: 'bkm4',
     difficulty: '',
     description: [
-    'Stand with your toes and heels touching, and your arms by your sides.',
-    'Raise your left arm straight above your head, with your palm facing the mirror.',
-    'Turn your right elbow into your rib cage, so that your forearm is at a right-angle to your upper arm, and your palm is facing upwards.',
-    'Drop your arm downwards, without twisting the palm and grab the inside of your right foot.',
-    'Your hand should be holding the front, not the sole of your foot.',
-    'Inhale, contract your abs and glutes, and slowly begin to kick the right leg back and up.',
-    'Keep your gaze forward, left leg locked and keep kicking until you feel you have reached your maximum.',
-    'Keeping your hips level, slowly lower your torso until it is parallel to the ground and your fingers are eye-level in the mirror.',
-    'Exit the posture slowly, the same way you went in to it, and return to standing.',
-
+      'Stand with your toes and heels touching, and your arms by your sides.',
+      'Raise your left arm straight above your head, with your palm facing the mirror.',
+      'Turn your right elbow into your rib cage, so that your forearm is at a right-angle to your upper arm, and your palm is facing upwards.',
+      'Drop your arm downwards, without twisting the palm and grab the inside of your right foot.',
+      'Your hand should be holding the front, not the sole of your foot.',
+      'Inhale, contract your abs and glutes, and slowly begin to kick the right leg back and up.',
+      'Keep your gaze forward, left leg locked and keep kicking until you feel you have reached your maximum.',
+      'Keeping your hips level, slowly lower your torso until it is parallel to the ground and your fingers are eye-level in the mirror.',
+      'Exit the posture slowly, the same way you went in to it, and return to standing.',
     ],
-  benefits: [
-  'Stimulates the cardiovascular system.',
-  'Increases circulation to the heart and lungs.',
-  'Opens diaphragm.',
-  'Opens the shoulder joints.',
-
+    benefits: [
+      'Stimulates the cardiovascular system.',
+      'Increases circulation to the heart and lungs.',
+      'Opens diaphragm.',
+      'Opens the shoulder joints.',
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Tuladandasana',
     imageUrl: 'assets/images/yoga/bikram/stick.jpg',
     id: 'bkm5',
@@ -445,10 +415,10 @@ const YOGA_DATA=[
       'Can help those with varicose veins.',
       'Good for the liver, pancreas, and spleen.',
       'Relieves spinal stress.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Trikonasana',
     imageUrl: 'assets/images/yoga/bikram/trikon.jpg',
     id: 'bkm6',
@@ -467,10 +437,10 @@ const YOGA_DATA=[
       'Stretches the hips, groins, hamstrings, and calves; shoulders, chest, and spine.',
       'Stimulates the abdominal organs.',
       'Helps relieve stress.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Tadasana',
     imageUrl: 'assets/images/yoga/bikram/tree.jpg',
     id: 'bkm7',
@@ -486,10 +456,10 @@ const YOGA_DATA=[
       'Strengthens biceps and triceps.',
       'Helps create stability in the shoulder joints.',
       'Tones abdomen and hips.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Padangustasana',
     imageUrl: 'assets/images/yoga/bikram/toe.jpg',
     id: 'bkm8',
@@ -506,7 +476,6 @@ const YOGA_DATA=[
       'Stimulates the liver and kidneys.',
       'Stretches the hamstrings and calves.',
       'Strengthens the thighs.',
-
     ],
     category: 'Bikram Yoga',
   ),
@@ -530,10 +499,10 @@ const YOGA_DATA=[
       'Increase in spinal strength and flexibility.',
       'Improved flexibility and tone of spinal muscles.',
       'Relief and prevention of lower backache.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Dhanurasana',
     imageUrl: 'assets/images/yoga/bikram/dhanu.jpg',
     id: 'bkm10',
@@ -551,10 +520,10 @@ const YOGA_DATA=[
       'Improves digestion and appetite.',
       'Helps to cure dyspepsia (obesity), rheumatism and gastrointestinal problems.',
       'Cures constipation.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Supta-Vajrasana',
     imageUrl: 'assets/images/yoga/bikram/fixed.jpg',
     id: 'bkm11',
@@ -572,10 +541,10 @@ const YOGA_DATA=[
       'Makes the spine flexible and tones spinal nerves.',
       'Correct rounded shoulders consequently improving body posture.',
       'Divert sexual energy to the brain therefore helps to achieve spiritual gains.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Ardha-Kurmasana',
     imageUrl: 'assets/images/yoga/bikram/tortoise.jpg',
     id: 'bkm12',
@@ -587,17 +556,16 @@ const YOGA_DATA=[
       'Reach the buttocks simultaneously back to your heels for creating deep spine stretch.',
       'As you stretch your arms forward, bring your chin slightly forward and away from your chest.',
       'Once you do so, relax your shoulders and a take a deep breath; Hold onto this position for 20 seconds.',
-
     ],
     benefits: [
       'Increases the blood flow to the brain.',
       'Stretches the back.',
       'Enhances memory and brain function.',
       'Strengthens the shoulders.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Ustrasana',
     imageUrl: 'assets/images/yoga/bikram/camel.jpg',
     id: 'bkm13',
@@ -613,10 +581,10 @@ const YOGA_DATA=[
       'Opens up the hips, stretching deep hip flexors.',
       'Stretches and strengthens the shoulders and back.',
       'Expands the abdominal region, improving digestion and elimination.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Sasangasana',
     imageUrl: 'assets/images/yoga/bikram/rabbit.jpg',
     id: 'bkm14',
@@ -628,17 +596,16 @@ const YOGA_DATA=[
       'Tightly hold onto your heels during the phase. Inhale deeply while lifting your hips upwards toward the roof.',
       'Roll on the crown of the head. Press your forehead slowly and bring it as close as you can towards the knees.',
       'Hold your body in this position at least for about 30-60 seconds.',
-
     ],
     benefits: [
       'Flexes the spine.',
       'Increases body awareness with breathing.',
       'As Rabbit Pose is a forward bend pose, it calms the mind and relieves tensions around the neck.',
       'Activates the thyroid glands, keeping the hormones in control.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Ardha-Matsyendrasana',
     imageUrl: 'assets/images/yoga/bikram/spine.jpg',
     id: 'bkm15',
@@ -658,11 +625,10 @@ const YOGA_DATA=[
       'The pose energizes and stretches the spine.',
       'Open your shoulders, hips and neck.',
       'Increase the flexibility in your spine and hips.',
-
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Kapalbhati in Vajrasana',
     imageUrl: 'assets/images/yoga/bikram/dhanu.jpg',
     id: 'bkm16',
@@ -672,17 +638,16 @@ const YOGA_DATA=[
       'Your knees, shins and front side of the foot are completely touching the floor.',
       'Rest your hands on your knee caps.',
       'Keep your torso straight and perpendicular to the ground.',
-
     ],
     benefits: [
       'Detoxifies and cleanses body by removing stale air and toxins from the lungs.',
       'Brings mental clarity.',
       'Strengthens abdominal organs and wall.',
       'Normalizes bowels.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Savasana',
     imageUrl: 'assets/images/yoga/bikram/savasana.jpg',
     id: 'bkm17',
@@ -692,17 +657,16 @@ const YOGA_DATA=[
       'Let your feet fall to a natural position and rest your palms facing up. Close down your eyes.',
       'Breathe naturally.',
       'Allow your body to feel heavy on the ground.',
-
     ],
     benefits: [
       'Calms central nervous system, aiding the digestive and immune systems.',
       'Calms the mind and reduces stress.',
       'Reduces headache, fatigue and anxiety.',
       'Helps lower blood pressure.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Pavanamuktasana',
     imageUrl: 'assets/images/yoga/bikram/wind.jpg',
     id: 'bkm18',
@@ -718,10 +682,10 @@ const YOGA_DATA=[
       'Pavanamuktasana cures constipation, indigestion, diarrhea and acidity.',
       'It also effectively massages the intestines as well as stimulates the internal organs of the digestive system.',
       'Thus releasing the trapped gases as well as improving digestion.',
-
     ],
     category: 'Bikram Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Bhujangasana',
     imageUrl: 'assets/images/yoga/bikram/cobra.jpg',
     id: 'bkm19',
@@ -737,13 +701,9 @@ const YOGA_DATA=[
       'Stretches chest and lungs, shoulders, and abdomen.',
       'Tones the buttocks.',
       'Stimulates abdominal organs.',
-
     ],
     category: 'Bikram Yoga',
   ),
-
-
-
 
   //IYENGAR
   const Yoga(
@@ -765,10 +725,10 @@ const YOGA_DATA=[
       'Parsvakonasana tones the ankles, knees and thighs, gives a good stretch to the back.',
       'It also relieves stiffness in the shoulders and hip joints.',
       'Minor deformities in the legs are rectified. This pose improves digestion by increasing peristaltic activity.',
-
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Ardha Chandrasana',
     imageUrl: 'assets/images/yoga/iyengar/ardha.jpg',
     id: 'i2',
@@ -787,10 +747,10 @@ const YOGA_DATA=[
       'Roots thighbones to help alleviate backpain.',
       'Strengthens abdomen, buttocks and spine.',
       'Opens chest and shoulders.',
-
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Parivrtta Ardha Chandrasana',
     imageUrl: 'assets/images/yoga/iyengar/pari_ardha.jpg',
     id: 'i3',
@@ -802,17 +762,16 @@ const YOGA_DATA=[
       'Though the asana primarily is to do with balance, the arms and shoulder muscles are put to work.',
       'Once you have mastered the art of balancing in this pose take the energy to the shoulders by taking the shoulders into a deeper twist.',
       'Stay on for about 6 breaths taking the twist deeper.',
-
     ],
     benefits: [
       'Parivrtta Ardha Chandrasana stimulates your metabolism and detoxifies the body.',
       'It strengthens the ankles, the calf and the thigh and the hip muscles.',
       'It strengthens the rectus abdominis or the ABS muscles.',
       'Parivrtta Ardha Chandrasana stretches the hamstrings and the groin and the leg muscles.',
-
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Parivrtta Trikonasana',
     imageUrl: 'assets/images/yoga/iyengar/pari_trikon.jpg',
     id: 'i4',
@@ -826,17 +785,16 @@ const YOGA_DATA=[
       'Knees must be tight throughout the practice. Don’t lift the toes of the right foot off the floor.',
       'Retain the pose from 30 seconds to a minute.',
       'To return from the pose, first, lift the hand off the floor. Come back in the starting position.',
-
     ],
     benefits: [
       'Stretches and strengthens the shoulders and arms toning them too.',
       'Stretches and strengthens the core muscles.',
       'Helps to massage the internal organs, improving the functioning of the digestive system.',
       'Cures symptoms related to the sciatic nerve.',
-
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Parivrtta Parsvakonasana',
     imageUrl: 'assets/images/yoga/iyengar/pari_parsva.jpg',
     id: 'i5',
@@ -857,10 +815,10 @@ const YOGA_DATA=[
       'Stretches the groins, spine, chest and lungs, and shoulders.',
       'Stimulates abdominal organs.',
       'Increases stamina.',
-
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Virabhadrasana I',
     imageUrl: 'assets/images/yoga/iyengar/vi1.jpg',
     id: 'i6',
@@ -882,7 +840,8 @@ const YOGA_DATA=[
       'Strengthens and stretches the thighs, calves, and ankles.',
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Virabhadrasana II',
     imageUrl: 'assets/images/yoga/iyengar/vi2.jpg',
     id: 'i7',
@@ -892,17 +851,16 @@ const YOGA_DATA=[
       'Arms: Keep the arms in line with your shoulders and parallel to the floor. Stretch the arms outwards during the practice.',
       'Head: keep the head to the right and look straight right over the right arm.',
       'Torso: Keep the torso erect and straight in this variation.',
-
     ],
     benefits: [
       'Strengthens and stretches the legs and ankles.',
       'Stretches the groins, chest and lungs, shoulders.',
       'Stimulates abdominal organs.',
       'Increases stamina.',
-
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Virabhadrasana III',
     imageUrl: 'assets/images/yoga/iyengar/vi3.jpg',
     id: 'i8',
@@ -915,37 +873,36 @@ const YOGA_DATA=[
       'Try to keep both the legs straight and hips parallel to the ground.',
       'Hold the posture for 3-5 breaths to start with.',
       'Exhale and slowly come back to standing position and repeat the same on the opposite leg.',
-
     ],
     benefits: [
       'Virabhadrasana III is a challenging pose – it gives elasticity to the hip joints and back and leg muscles, and strengthens the back.',
       'While removing cramps in the legs, hips and back, it also aids in digestion and elimination, and helps melt excess fat off the body.',
       'This pose also helps improve coordination and balance.',
-
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Parsvottanasana',
     imageUrl: 'assets/images/yoga/iyengar/parsvottan.jpg',
     id: 'i9',
     difficulty: '',
     description: [
-    'From Tadasana (Mountain Pose), inhale to step your right foot back and turn it out 45 degrees. Keep both legs straight.',
-    'Exhale to settle your feet into the earth. Inhale to spread your toes to help activate your legs. Maintaining firm legs.',
-    'Square your hips by moving your left hip back and your right hip forward. Exhale and make your legs longer by rooting down through your bones.',
-    'Inhale to lift your chest; on an exhalation, elongate your spine forward as you fold from your hips.',
-    'Hold for several deep breaths, maintaining the extension in your spine.',
-    'To release, exhale to step your right foot forward into Uttanasana. Repeat on the other side.',
-
+      'From Tadasana (Mountain Pose), inhale to step your right foot back and turn it out 45 degrees. Keep both legs straight.',
+      'Exhale to settle your feet into the earth. Inhale to spread your toes to help activate your legs. Maintaining firm legs.',
+      'Square your hips by moving your left hip back and your right hip forward. Exhale and make your legs longer by rooting down through your bones.',
+      'Inhale to lift your chest; on an exhalation, elongate your spine forward as you fold from your hips.',
+      'Hold for several deep breaths, maintaining the extension in your spine.',
+      'To release, exhale to step your right foot forward into Uttanasana. Repeat on the other side.',
     ],
     benefits: [
-    'Calms the brain.',
-    'Stretches the spine, shoulders and wrists (in the full pose), hips, and hamstrings.',
-    'Strengthens the legs.',
-    'Stimulates the abdominal organs.',
+      'Calms the brain.',
+      'Stretches the spine, shoulders and wrists (in the full pose), hips, and hamstrings.',
+      'Strengthens the legs.',
+      'Stimulates the abdominal organs.',
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Prasarita Padottanasana',
     imageUrl: 'assets/images/yoga/iyengar/prasarita.jpg',
     id: 'i10',
@@ -966,7 +923,8 @@ const YOGA_DATA=[
       'It acts as a semi inversion.',
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Salamba Sirsasana',
     imageUrl: 'assets/images/yoga/iyengar/salamba.jpg',
     id: 'i11',
@@ -988,7 +946,8 @@ const YOGA_DATA=[
       'Strengthens the lungs.',
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Setu Bandha Sarvangasana',
     imageUrl: 'assets/images/yoga/iyengar/setu.jpg',
     id: 'i12',
@@ -1008,7 +967,8 @@ const YOGA_DATA=[
       'Helps alleviate stress and mild depression.',
     ],
     category: 'Iyengar Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Savasana',
     imageUrl: 'assets/images/yoga/iyengar/sava.jpg',
     id: 'i13',
@@ -1026,10 +986,6 @@ const YOGA_DATA=[
     ],
     category: 'Iyengar Yoga',
   ),
-
-
-
-
 
   //RESTORATIVE
   const Yoga(
@@ -1050,7 +1006,8 @@ const YOGA_DATA=[
       'Helps lower blood pressure.',
     ],
     category: 'Restorative Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Supported Supine Twist',
     imageUrl: 'assets/images/yoga/restorative/twist.jpg',
     id: 'r2',
@@ -1067,7 +1024,8 @@ const YOGA_DATA=[
       'Improves Digestion',
     ],
     category: 'Restorative Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Supported Lounging Pigeon',
     imageUrl: 'assets/images/yoga/restorative/pigeon.jpg',
     id: 'r3',
@@ -1083,7 +1041,8 @@ const YOGA_DATA=[
       'It may also support digestion and mental well-being.',
     ],
     category: 'Restorative Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Supported Backbend',
     imageUrl: 'assets/images/yoga/restorative/backbend.jpg',
     id: 'r4',
@@ -1101,7 +1060,8 @@ const YOGA_DATA=[
       'Increase oxygen levels + open the body to diaphragmatic breathing.',
     ],
     category: 'Restorative Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Supported Supine Hero’s Pose',
     imageUrl: 'assets/images/yoga/restorative/hero.jpg',
     id: 'r5',
@@ -1117,10 +1077,10 @@ const YOGA_DATA=[
       'It strengthens your arches. It stretches your quadriceps.',
       'It helps in the treatment of sciatica.',
       'It relieves sleeping disorders.',
-
     ],
     category: 'Restorative Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Supported Bound Angle Pose',
     imageUrl: 'assets/images/yoga/restorative/angle.jpg',
     id: 'r6',
@@ -1137,7 +1097,8 @@ const YOGA_DATA=[
       'Helps relieve the symptoms of stress, mild depression, menstruation and menopause.',
     ],
     category: 'Restorative Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Supported Child’s Pose',
     imageUrl: 'assets/images/yoga/restorative/child.jpg',
     id: 'r7',
@@ -1157,7 +1118,8 @@ const YOGA_DATA=[
       'Stimulates the parasympathetic nervous system.',
     ],
     category: 'Restorative Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Supported Vertical Leg Extension',
     imageUrl: 'assets/images/yoga/restorative/extension.jpg',
     id: 'r8',
@@ -1176,11 +1138,6 @@ const YOGA_DATA=[
     ],
     category: 'Restorative Yoga',
   ),
-
-
-
-
-
 
   //YIN
   const Yoga(
@@ -1201,7 +1158,8 @@ const YOGA_DATA=[
       'If the feet are in closer to the groin, the adductor muscles get stretched more.',
     ],
     category: 'Yin Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Sphinx',
     imageUrl: 'assets/images/yoga/yin/sphinx.jpg',
     id: 'y2',
@@ -1219,26 +1177,28 @@ const YOGA_DATA=[
       'It invigorates the body, soothes the nervous system, and is also therapeutic for fatigue.',
     ],
     category: 'Yin Yoga',
-  ),const Yoga(
-      title: 'Open Wing',
-      imageUrl: 'assets/images/yoga/yin/wing.jpg',
-      id: 'y3',
-      difficulty: '',
-      description: [
+  ),
+  const Yoga(
+    title: 'Open Wing',
+    imageUrl: 'assets/images/yoga/yin/wing.jpg',
+    id: 'y3',
+    difficulty: '',
+    description: [
       'Lying on your stomach, take your right arm out to the side—90 degrees or less from your torso with your palm facing down.',
       'Press your left hand into the floor to roll onto the right side of your body.',
       'You’re looking for sensation across the right side of your chest, shoulder, and right arm.',
       'Try bending your knees and possibly opening your left leg up toward the ceiling by standing your left foot on the floor.',
       'This last action can increase sensation in your right arm, but if it’s too much, leave your left knee and leg down.',
       'Hold for 3–4 minutes on each side.',
-      ],
-      benefits: [
+    ],
+    benefits: [
       'It is a great opening for the pectoral muscles and the inside of the arms stimulating the Heart meridian.',
       'It also gently stretches the inner thigh of the top leg.',
       'Start by laying on your chest and belly and extend both arms to the side like wings.',
-      ],
-      category: 'Yin Yoga',
-  ),const Yoga(
+    ],
+    category: 'Yin Yoga',
+  ),
+  const Yoga(
     title: 'Wide-kneed Child’s Pose',
     imageUrl: 'assets/images/yoga/yin/wide_child.jpg',
     id: 'y4',
@@ -1255,7 +1215,8 @@ const YOGA_DATA=[
       'It gently stretches the hips, thighs and ankles. Normalizes circulation throughout the body.',
     ],
     category: 'Yin Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Dragon (A)',
     imageUrl: 'assets/images/yoga/yin/dragon_a.jpg',
     id: 'y5',
@@ -1269,13 +1230,14 @@ const YOGA_DATA=[
       'Your right knee and foot may move to the right as well.',
     ],
     benefits: [
-    'Deep hip and groin opener that gets right into the joint.',
-    'Stretches the back legs hip flexors and quadriceps.',
-    'Many variations to help work deeply into hip socket.',
-    'Can help with sciatica.',
+      'Deep hip and groin opener that gets right into the joint.',
+      'Stretches the back legs hip flexors and quadriceps.',
+      'Many variations to help work deeply into hip socket.',
+      'Can help with sciatica.',
     ],
     category: 'Yin Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Dragon (B)',
     imageUrl: 'assets/images/yoga/yin/dragon_b.jpg',
     id: 'y6',
@@ -1285,13 +1247,14 @@ const YOGA_DATA=[
       'Your right knee can drift to the right here—it doesn’t need to stay directly over your heel.',
     ],
     benefits: [
-    'Deep hip and groin opener that gets right into the joint.',
-    'Stretches the back legs hip flexors and quadriceps.',
-    'Many variations to help work deeply into hip socket.',
-    'Can help with sciatica.',
+      'Deep hip and groin opener that gets right into the joint.',
+      'Stretches the back legs hip flexors and quadriceps.',
+      'Many variations to help work deeply into hip socket.',
+      'Can help with sciatica.',
     ],
     category: 'Yin Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Dragon (C)',
     imageUrl: 'assets/images/yoga/yin/dragon_c.jpg',
     id: 'y7',
@@ -1302,12 +1265,13 @@ const YOGA_DATA=[
       'You can remain on your hands or lower your forearms to the floor.',
     ],
     benefits: [
-    'Deep hip and groin opener that gets right into the joint.',
-    'Stretches the back legs hip flexors and quadriceps.',
-    'Many variations to help work deeply into hip socket.',
+      'Deep hip and groin opener that gets right into the joint.',
+      'Stretches the back legs hip flexors and quadriceps.',
+      'Many variations to help work deeply into hip socket.',
     ],
     category: 'Yin Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Swan',
     imageUrl: 'assets/images/yoga/yin/swan.jpg',
     id: 'y8',
@@ -1325,7 +1289,8 @@ const YOGA_DATA=[
       'Stimulates the Liver, Kidney and Spleen meridians through the front body extension.',
     ],
     category: 'Yin Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Caterpillar',
     imageUrl: 'assets/images/yoga/yin/cater.jpg',
     id: 'y9',
@@ -1343,7 +1308,8 @@ const YOGA_DATA=[
       'Since the heart is below the spine, the heart is massaged.',
     ],
     category: 'Yin Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Bananasana',
     imageUrl: 'assets/images/yoga/yin/banana.jpg',
     id: 'y10',
@@ -1363,7 +1329,8 @@ const YOGA_DATA=[
       'Stimulates the Heart and Lung meridians if arms are raised overhead.',
     ],
     category: 'Yin Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Twisted Root',
     imageUrl: 'assets/images/yoga/yin/root.jpg',
     id: 'y11',
@@ -1383,7 +1350,8 @@ const YOGA_DATA=[
       'Massages digestive organs',
     ],
     category: 'Yin Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Corpse Pose',
     imageUrl: 'assets/images/yoga/yin/corpse.jpg',
     id: 'y12',
@@ -1401,12 +1369,6 @@ const YOGA_DATA=[
     ],
     category: 'Yin Yoga',
   ),
-
-
-
-
-
-
 
   //JIVMUKTI
   const Yoga(
@@ -1427,7 +1389,8 @@ const YOGA_DATA=[
       'Removes menstrual cramps.',
     ],
     category: 'Jivmukti Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Natrajasana',
     imageUrl: 'assets/images/yoga/jivmukti/dancing.jpg',
     id: 'j2',
@@ -1445,7 +1408,8 @@ const YOGA_DATA=[
       'Your posture is improved, and balance is increased.',
     ],
     category: 'Jivmukti Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Dhanurasana',
     imageUrl: 'assets/images/yoga/jivmukti/bow.jpg',
     id: 'j3',
@@ -1462,7 +1426,8 @@ const YOGA_DATA=[
       'Cures constipation.',
     ],
     category: 'Jivmukti Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Mayurasana',
     imageUrl: 'assets/images/yoga/jivmukti/mayur.jpg',
     id: 'j4',
@@ -1480,7 +1445,8 @@ const YOGA_DATA=[
       'It helps in improving the posture and is a good remedy for posture induces health issues especially those pertaining to limbs, spine and joints.',
     ],
     category: 'Jivmukti Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Virasana',
     imageUrl: 'assets/images/yoga/jivmukti/hero.jpg',
     id: 'j5',
@@ -1498,9 +1464,6 @@ const YOGA_DATA=[
     ],
     category: 'Jivmukti Yoga',
   ),
-
-
-
 
   //PRENTAL
   const Yoga(
@@ -1524,7 +1487,8 @@ const YOGA_DATA=[
       'Promote grounded-ness and Unlock the hips.',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Side Bends',
     imageUrl: 'assets/images/yoga/prental/side.jpg',
     id: 'p2',
@@ -1543,7 +1507,8 @@ const YOGA_DATA=[
       'Your hip stabilizers have to work extra hard to resist collapsing in to adduction.',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Sufi Rolls',
     imageUrl: 'assets/images/yoga/prental/sufi.jpg',
     id: 'p3',
@@ -1560,24 +1525,26 @@ const YOGA_DATA=[
       'This can help to bring focus and awareness into the body, cultivating a sense of stillness',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
-      title: 'Cat and Cow',
-      imageUrl: 'assets/images/yoga/prental/cat_cow.jpg',
-      id: 'p4',
-      difficulty: '',
-      description: [
+  ),
+  const Yoga(
+    title: 'Cat and Cow',
+    imageUrl: 'assets/images/yoga/prental/cat_cow.jpg',
+    id: 'p4',
+    difficulty: '',
+    description: [
       'Come into Tabletop with your knees on a folded blanket.',
       'On an inhalation, reach your sternum through the gateway of your arms, creating a heart opening in your chest (Cow Pose, shown).',
       'On an exhalation, round through your upper back and spread your shoulder blades.',
       'Press down evenly into both hands and draw your chin in toward your sternum (Cat Pose).',
       'Repeat each pose 5–10 times each.',
-      ],
-      benefits: [
+    ],
+    benefits: [
       'Yoga pose that is said to improve posture and balance — ideal for those with back pain.',
       'The benefits of this synchronized breath movement will also help you relax and ease some of the days stress.',
-      ],
-      category: 'Prental Yoga',
-  ),const Yoga(
+    ],
+    category: 'Prental Yoga',
+  ),
+  const Yoga(
     title: 'Vajrasana',
     imageUrl: 'assets/images/yoga/prental/vajra.jpg',
     id: 'p5',
@@ -1594,7 +1561,8 @@ const YOGA_DATA=[
       'Strengthening thigh muscles.',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Vasisthasana',
     imageUrl: 'assets/images/yoga/prental/vasi.jpg',
     id: 'p6',
@@ -1612,7 +1580,8 @@ const YOGA_DATA=[
       'This pose tones the abdominal muscles and improves balance, concentration, and focus.',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Virabhadrasana II',
     imageUrl: 'assets/images/yoga/prental/vi2.jpg',
     id: 'p7',
@@ -1630,7 +1599,8 @@ const YOGA_DATA=[
       'Improves your core strength.',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Utthita Trikonasana',
     imageUrl: 'assets/images/yoga/prental/trikon.jpg',
     id: 'p8',
@@ -1647,7 +1617,8 @@ const YOGA_DATA=[
       'Helps relieve stress.',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Temple pose',
     imageUrl: 'assets/images/yoga/prental/temple.jpg',
     id: 'p9',
@@ -1663,7 +1634,8 @@ const YOGA_DATA=[
       'This will stretch your glutes, quads and hamstrings more',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Prasarita Padottanasana',
     imageUrl: 'assets/images/yoga/prental/prasarita.jpg',
     id: 'p10',
@@ -1683,26 +1655,28 @@ const YOGA_DATA=[
       'It acts as a semi inversion.',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Malasana',
     imageUrl: 'assets/images/yoga/prental/mala.jpg',
     id: 'p11',
     difficulty: '',
     description: [
-    'Come to the top of your mat, stepping your feet a little bit wider than hip-width apart.',
-    'Turn your toes outward 45 degrees, and bring your heels onto a folded blanket.',
-    'Bend your knees as much as your hips will allow.',
-    'Bring your hands to your heart center and use your elbows to help open your knees.',
-    'Lift your sternum, drop your tailbone, and take 10 deep breaths here.',
+      'Come to the top of your mat, stepping your feet a little bit wider than hip-width apart.',
+      'Turn your toes outward 45 degrees, and bring your heels onto a folded blanket.',
+      'Bend your knees as much as your hips will allow.',
+      'Bring your hands to your heart center and use your elbows to help open your knees.',
+      'Lift your sternum, drop your tailbone, and take 10 deep breaths here.',
     ],
     benefits: [
-    'Malasana Stretches your thighs, hamstrings, lower back, the sacrum, the groin.',
-    'Strengthens hips, digestive system and spine.',
-  'Garland Pose Improves your posture and tones the belly.',
-  'Makes your ankles and knees flexible.',
+      'Malasana Stretches your thighs, hamstrings, lower back, the sacrum, the groin.',
+      'Strengthens hips, digestive system and spine.',
+      'Garland Pose Improves your posture and tones the belly.',
+      'Makes your ankles and knees flexible.',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Hanumanasana',
     imageUrl: 'assets/images/yoga/prental/hanu.jpg',
     id: 'p12',
@@ -1721,7 +1695,8 @@ const YOGA_DATA=[
       'Removes menstrual cramps.',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Upavistha Konasana',
     imageUrl: 'assets/images/yoga/prental/kona.jpg',
     id: 'p13',
@@ -1738,7 +1713,8 @@ const YOGA_DATA=[
       'This benefits your back muscles and also improves your posture.',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Tarasana',
     imageUrl: 'assets/images/yoga/prental/tara.jpg',
     id: 'p14',
@@ -1756,7 +1732,8 @@ const YOGA_DATA=[
       'Improves Breathing.',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Seated Meditation',
     imageUrl: 'assets/images/yoga/prental/seated.jpg',
     id: 'p15',
@@ -1773,7 +1750,8 @@ const YOGA_DATA=[
       'In a nutshell, meditation provides at least a short-term performance improvement',
     ],
     category: 'Prental Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Supta Baddha Konasana',
     imageUrl: 'assets/images/yoga/prental/supta.jpg',
     id: 'p16',
@@ -1793,9 +1771,6 @@ const YOGA_DATA=[
     category: 'Prental Yoga',
   ),
 
-
-
-
   //ACRO
   const Yoga(
     title: 'Plank on Plank',
@@ -1804,7 +1779,6 @@ const YOGA_DATA=[
     difficulty: '',
     description: [
       'BASE- Take Plank Pose, with your hands shoulder-width apart, arms straight and vertical, core engaged.',
-
       'FLYER- Facing your base’s feet, place your hands on his ankles.',
       'Press down with straight arms, lift the foot closest to your base, and place your ankle on his more distant shoulder.',
       'Point toes and press into the top of that foot. Engage your leg and core muscles.',
@@ -1817,7 +1791,8 @@ const YOGA_DATA=[
       'Reduces belly fat and makes tummy tight.',
     ],
     category: 'Acro Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Plank Press',
     imageUrl: 'assets/images/yoga/acro/press.jpg',
     id: 'ac2',
@@ -1833,7 +1808,8 @@ const YOGA_DATA=[
       'Enhanced ability to stabilize your spine during active movement.',
     ],
     category: 'Acro Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Folded Leaf',
     imageUrl: 'assets/images/yoga/acro/leaf.jpg',
     id: 'ac3',
@@ -1851,27 +1827,29 @@ const YOGA_DATA=[
       'The exercise strengthens arms, wrists, hands shoulders, hips, and stomach muscles ; poise and balance.',
     ],
     category: 'Acro Yoga',
-  ),const Yoga(
-      title: 'Front Plank',
-      imageUrl: 'assets/images/yoga/acro/front.jpg',
-      id: 'ac4',
-      difficulty: '',
-      description: [
+  ),
+  const Yoga(
+    title: 'Front Plank',
+    imageUrl: 'assets/images/yoga/acro/front.jpg',
+    id: 'ac4',
+    difficulty: '',
+    description: [
       'Start in Plank Press, with the base’s feet pressing into the flyer’s hips.'
-      'The flyer will reach forward and grab hold of the base’s hands. Both partners’ arms should be straight.'
-      'The base will bend their knees into their chest as the flyer presses into the ground, preparing to take off.'
-      'The base will then extend their legs straight up as the flyer lifts off, keeping their feet over their hips.'
-      'The partners should still be holding hands at this point for support.'
-      'The flyer should keep their core engaged as they straighten their legs and point through their toes.'
-  ],
-  benefits: [
-  'Improves body balance and posture.',
+          'The flyer will reach forward and grab hold of the base’s hands. Both partners’ arms should be straight.'
+          'The base will bend their knees into their chest as the flyer presses into the ground, preparing to take off.'
+          'The base will then extend their legs straight up as the flyer lifts off, keeping their feet over their hips.'
+          'The partners should still be holding hands at this point for support.'
+          'The flyer should keep their core engaged as they straighten their legs and point through their toes.'
+    ],
+    benefits: [
+      'Improves body balance and posture.',
       'Strengthens your core (i.e. spine, shoulder bones, pelvic and joints)',
       'Improves body flexibility.',
       'Reduces belly fat and makes tummy tight.',
-  ],
-  category: 'Acro Yoga',
-  ),const Yoga(
+    ],
+    category: 'Acro Yoga',
+  ),
+  const Yoga(
     title: 'Partner Forward Folds',
     imageUrl: 'assets/images/yoga/acro/partner.jpg',
     id: 'ac5',
@@ -1890,7 +1868,8 @@ const YOGA_DATA=[
       'It releases the groins and opens and stretches the hips and thighs.',
     ],
     category: 'Acro Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Fish on a Rock',
     imageUrl: 'assets/images/yoga/acro/fish.jpg',
     id: 'ac6',
@@ -1905,7 +1884,8 @@ const YOGA_DATA=[
       'It strengthens the upper back muscles and the back of the neck, which improves spinal flexibility and posture.',
     ],
     category: 'Acro Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Down Dog L-Shape',
     imageUrl: 'assets/images/yoga/acro/down_dog.jpg',
     id: 'ac7',
@@ -1920,12 +1900,13 @@ const YOGA_DATA=[
       'They should lengthen through the legs, so that they are making an upside-down L shape with their body.',
     ],
     benefits: [
-    'As both a stretching and strengthening asana, downward dog provides incredible balance for mind and body.',
-    'It also targets your upper and lower body at the same time.',
-    'So you will feel it in your hands, arms, shoulders, back, calves, hamstrings and even the arches of your feet.',
-  ],
+      'As both a stretching and strengthening asana, downward dog provides incredible balance for mind and body.',
+      'It also targets your upper and lower body at the same time.',
+      'So you will feel it in your hands, arms, shoulders, back, calves, hamstrings and even the arches of your feet.',
+    ],
     category: 'Acro Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Foot to Hand',
     imageUrl: 'assets/images/yoga/acro/foot_to_hand.jpg',
     id: 'ac8',
@@ -1946,7 +1927,8 @@ const YOGA_DATA=[
       'Helps improve hip flexibility.',
     ],
     category: 'Acro Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Chair Pose on Shins',
     imageUrl: 'assets/images/yoga/acro/chair.jpg',
     id: 'ac9',
@@ -1966,7 +1948,8 @@ const YOGA_DATA=[
       'It stretches the Achilles tendons and shins, and is known to be therapeutic for flat feet.',
     ],
     category: 'Acro Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Jedi Plank',
     imageUrl: 'assets/images/yoga/acro/jedi.jpg',
     id: 'ac10',
@@ -1988,9 +1971,6 @@ const YOGA_DATA=[
     category: 'Acro Yoga',
   ),
 
-
-
-
   //AERIAL
   const Yoga(
     title: 'Layback in the Cross Position',
@@ -2011,7 +1991,8 @@ const YOGA_DATA=[
       'Improves posture.',
     ],
     category: 'Aerial Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Chair in the Cross Position',
     imageUrl: 'assets/images/yoga/aerial/chair.jpg',
     id: 'ae2',
@@ -2029,7 +2010,8 @@ const YOGA_DATA=[
       'Some people claim that if you sit in this position while eating it helps digestion.',
     ],
     category: 'Aerial Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Shoulder Stretch in Wrist Wrap',
     imageUrl: 'assets/images/yoga/aerial/shoulder_wrap.jpg',
     id: 'ae3',
@@ -2045,7 +2027,8 @@ const YOGA_DATA=[
       'It helps in the reduction of lower back pain and sciatica pain.',
     ],
     category: 'Aerial Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Plank with the Feet in the Hammock',
     imageUrl: 'assets/images/yoga/aerial/plank.jpg',
     id: 'ae4',
@@ -2061,7 +2044,8 @@ const YOGA_DATA=[
       'You will notice over time as your abdominal muscles strengthen that you will be able to balance better while performing one legged movements.',
     ],
     category: 'Aerial Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Low Lunge in Wrist Wrap',
     imageUrl: 'assets/images/yoga/aerial/low_lunge.jpg',
     id: 'ae5',
@@ -2076,7 +2060,8 @@ const YOGA_DATA=[
       'Low Lunge Pose Side Bend Wrist Hold additionally involves side-bend, Stretch, Strength, Balance.',
     ],
     category: 'Aerial Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Pike and Pull with the Foot in the Hammock',
     imageUrl: 'assets/images/yoga/aerial/pike_pull.jpg',
     id: 'ae6',
@@ -2094,7 +2079,8 @@ const YOGA_DATA=[
       'Improves balance and focus.',
     ],
     category: 'Aerial Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Star Inversion',
     imageUrl: 'assets/images/yoga/aerial/star.jpg',
     id: 'ae7',
@@ -2112,7 +2098,8 @@ const YOGA_DATA=[
       'Reduce Varicose Vein Pain.',
     ],
     category: 'Aerial Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Floating Savasana with Assisted Foot and Back Massage',
     imageUrl: 'assets/images/yoga/aerial/massage.jpg',
     id: 'ae8',
@@ -2130,12 +2117,6 @@ const YOGA_DATA=[
     ],
     category: 'Aerial Yoga',
   ),
-
-
-
-
-
-
 
   //KUNDALINI
   const Yoga(
@@ -2160,7 +2141,8 @@ const YOGA_DATA=[
       'Practicing crow also improves balance and deepens concentration and focus, while opening the hips.',
     ],
     category: 'Kundalini Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Frog Pose',
     imageUrl: 'assets/images/yoga/kundalini/frog.jpg',
     id: 'k2',
@@ -2179,7 +2161,8 @@ const YOGA_DATA=[
       'Help digestion.',
     ],
     category: 'Kundalini Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Stretch Pose',
     imageUrl: 'assets/images/yoga/kundalini/stretch.jpg',
     id: 'k3',
@@ -2200,7 +2183,8 @@ const YOGA_DATA=[
       'Stimulates the abdominal organs and digestion.',
     ],
     category: 'Kundalini Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Camel Pose',
     imageUrl: 'assets/images/yoga/kundalini/camel.jpg',
     id: 'k4',
@@ -2221,7 +2205,8 @@ const YOGA_DATA=[
       'Expands the abdominal region, improving digestion and elimination.',
     ],
     category: 'Kundalini Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Cobra Pose',
     imageUrl: 'assets/images/yoga/kundalini/cobra.jpg',
     id: 'k5',
@@ -2243,7 +2228,8 @@ const YOGA_DATA=[
       'Stimulates abdominal organs.',
     ],
     category: 'Kundalini Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Guru Pranam',
     imageUrl: 'assets/images/yoga/kundalini/guru.jpg',
     id: 'k6',
@@ -2263,7 +2249,8 @@ const YOGA_DATA=[
       'Eases back and neck pain.',
     ],
     category: 'Kundalini Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Sat Kriya',
     imageUrl: 'assets/images/yoga/kundalini/sat_kriya.jpg',
     id: 'k7',
@@ -2283,10 +2270,6 @@ const YOGA_DATA=[
     category: 'Kundalini Yoga',
   ),
 
-
-
-
-
   //SIVA
   const Yoga(
     title: 'ANULOMA VILOMA',
@@ -2305,7 +2288,8 @@ const YOGA_DATA=[
       'Better overall sense of well-being.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'BACKBEND',
     imageUrl: 'assets/images/yoga/siva/backbend.jpg',
     id: 's2',
@@ -2320,7 +2304,8 @@ const YOGA_DATA=[
       'Increase oxygen levels + open the body to diaphragmatic breathing.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'ANJANEYASANA',
     imageUrl: 'assets/images/yoga/siva/anja.jpg',
     id: 's3',
@@ -2338,7 +2323,8 @@ const YOGA_DATA=[
       'Opens the shoulders and chest.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'KNEES, CHEST, CHIN',
     imageUrl: 'assets/images/yoga/siva/kcc.jpg',
     id: 's4',
@@ -2355,7 +2341,8 @@ const YOGA_DATA=[
       'Practicing the pose regularly will help build strength throughout your whole body.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'BHUJANGASANA',
     imageUrl: 'assets/images/yoga/siva/bhu.jpg',
     id: 's5',
@@ -2373,7 +2360,8 @@ const YOGA_DATA=[
       'Stimulates abdominal organs.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'LOW LUNGE',
     imageUrl: 'assets/images/yoga/siva/low_lunge.jpg',
     id: 's6',
@@ -2391,7 +2379,8 @@ const YOGA_DATA=[
       'Helps build mental focus.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'BALASANA',
     imageUrl: 'assets/images/yoga/siva/bala.jpg',
     id: 's7',
@@ -2409,7 +2398,8 @@ const YOGA_DATA=[
       'Normalizes circulation throughout the body.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'HALASANA',
     imageUrl: 'assets/images/yoga/siva/hala.jpg',
     id: 's8',
@@ -2428,7 +2418,8 @@ const YOGA_DATA=[
       'Helps relieve the symptoms of menopause.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'MATSYASANA',
     imageUrl: 'assets/images/yoga/siva/matsya.jpg',
     id: 's9',
@@ -2446,7 +2437,8 @@ const YOGA_DATA=[
       'Stretches and stimulates the organs of your belly and throat.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'PASCHIMOTTANASANA',
     imageUrl: 'assets/images/yoga/siva/paschi.jpg',
     id: 's10',
@@ -2465,7 +2457,8 @@ const YOGA_DATA=[
       'Improves digestion.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'REST',
     imageUrl: 'assets/images/yoga/siva/rest.jpg',
     id: 's11',
@@ -2483,7 +2476,8 @@ const YOGA_DATA=[
       'Helps lower blood pressure.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'SALABHASANA',
     imageUrl: 'assets/images/yoga/siva/salabh.jpg',
     id: 's12',
@@ -2502,7 +2496,8 @@ const YOGA_DATA=[
       'Stimulates abdominal organs.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'DHANURASANA',
     imageUrl: 'assets/images/yoga/siva/dhanu.jpg',
     id: 's13',
@@ -2519,7 +2514,8 @@ const YOGA_DATA=[
       'Cures constipation.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'CHILD’S POSE',
     imageUrl: 'assets/images/yoga/siva/child.jpg',
     id: 's14',
@@ -2537,14 +2533,15 @@ const YOGA_DATA=[
       'Creates a nice stretch in the hips and thighs.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'ARDHA MATSYENDRASANA',
     imageUrl: 'assets/images/yoga/siva/ardha_matsy.jpg',
     id: 's15',
     difficulty: '',
     description: [
-    'Bend the right leg over the left leg, placing the right foot on the outside of the left knee, keep the toes of right foot face forward.',
-    'Bend the left leg, bringing the left foot near the right buttock, keep left foots outside edge in contact with the floor.',
+      'Bend the right leg over the left leg, placing the right foot on the outside of the left knee, keep the toes of right foot face forward.',
+      'Bend the left leg, bringing the left foot near the right buttock, keep left foots outside edge in contact with the floor.',
     ],
     benefits: [
       'It strengthens and tones your obliques and abs.',
@@ -2553,7 +2550,8 @@ const YOGA_DATA=[
       'Increase the flexibility in your spine and hips.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'PADA HASTASANA',
     imageUrl: 'assets/images/yoga/siva/pada.jpg',
     id: 's16',
@@ -2573,7 +2571,8 @@ const YOGA_DATA=[
       'Increases vitality.',
     ],
     category: 'Sivananda Yoga',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'EASY POSE',
     imageUrl: 'assets/images/yoga/siva/easy.jpg',
     id: 's17',
@@ -2594,9 +2593,6 @@ const YOGA_DATA=[
     category: 'Sivananda Yoga',
   ),
 
-
-
-
   // SURYA-NAMASKARA
   const Yoga(
     title: 'Pranamasana',
@@ -2606,7 +2602,6 @@ const YOGA_DATA=[
     description: [
       'Prayer to be chanted in Pranamasana:',
       'ॐ मित्राय नमः | Om Mitraaya Namaha',
-
       'Stand at the edge of the yoga mat',
       'Keep your feet together so that your body weight is balanced equally on both the feet',
       'Relax you shoulders',
@@ -2618,7 +2613,8 @@ const YOGA_DATA=[
       'Sets concentration for beginning the 12 poses of Surya Namaskar Yogasan'
     ],
     category: 'Surya Namaskara',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Hastauttanasana',
     imageUrl: 'assets/images/yoga/surya/su2.png',
     id: 'su2',
@@ -2626,7 +2622,6 @@ const YOGA_DATA=[
     description: [
       'Prayer to be chanted in Hasta Uttanasana:',
       'ॐ रवये नमः । Om Ravaye Namaha',
-
       'Breathe in and lift your arms up and back',
       'Keep the biceps close to the ears',
       'Stretch the whole body'
@@ -2636,7 +2631,8 @@ const YOGA_DATA=[
       'Expands the chest, helping in maximum intake of oxygen'
     ],
     category: 'Surya Namaskara',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Hasta Padasana',
     imageUrl: 'assets/images/yoga/surya/su3.png',
     id: 'su3',
@@ -2644,7 +2640,6 @@ const YOGA_DATA=[
     description: [
       'Prayer to be chanted in Hasta Padasana:',
       'ॐ सूर्याय नम: । Om Suryaya Namaha',
-
       'Bend forward from the waist',
       'Keep the spine erect',
       'Bring hands down towards the floor while breathing out'
@@ -2655,7 +2650,8 @@ const YOGA_DATA=[
       'Opens up the hips, shoulders, and arms'
     ],
     category: 'Surya Namaskara',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Ashwa Sanchalanasana',
     imageUrl: 'assets/images/yoga/surya/su4.png',
     id: 'su4',
@@ -2663,7 +2659,6 @@ const YOGA_DATA=[
     description: [
       'Prayer to be chanted in Ashwa Sanchalanasana:',
       'ॐ भानवे नमः । Om Bhaanave Namaha',
-
       'Breathe in and push your right leg back as far possible',
       'Bring the right knee to the floor and look up'
     ],
@@ -2672,7 +2667,8 @@ const YOGA_DATA=[
       'Good for digestion, constipation, and sciatica.',
     ],
     category: 'Surya Namaskara',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Dandasana',
     imageUrl: 'assets/images/yoga/surya/su5.png',
     id: 'su5',
@@ -2680,7 +2676,6 @@ const YOGA_DATA=[
     description: [
       'Prayer to be chanted in Dandasana:',
       'ॐ खगाय नमः । Om Khagaya Namaha',
-
       'Breathe in and take the left leg back',
       'Bring the whole body in a straight line'
     ],
@@ -2690,7 +2685,8 @@ const YOGA_DATA=[
       'Stretches the shoulders, spine, and chest'
     ],
     category: 'Surya Namaskara',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Ashtanga Namaskara',
     imageUrl: 'assets/images/yoga/surya/su6.png',
     id: 'su6',
@@ -2698,16 +2694,14 @@ const YOGA_DATA=[
     description: [
       'Prayer to be chanted in Ashtanga Namaskara:',
       'ॐ पूष्णे  नमः । Om Pooshne Namaha',
-
       'Bring knees down to the floor while breathing out',
       'Take the hips back and slide forward',
       'Rest your chest and chin on the floor'
     ],
-    benefits: [
-      'It strengthens the muscles of the hands, legs, and chest'
-    ],
+    benefits: ['It strengthens the muscles of the hands, legs, and chest'],
     category: 'Surya Namaskara',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Bhujagasana',
     imageUrl: 'assets/images/yoga/surya/su7.png',
     id: 'su7',
@@ -2715,7 +2709,6 @@ const YOGA_DATA=[
     description: [
       'Prayer to be chanted in Bhujangasana:',
       'ॐ हिरण्यगर्भाय नमः । Om Hiranya Garbhaya Namaha',
-
       'Slide forward and raise the chest up',
       'Keep your elbows bent and shoulders away from the ears',
       'Look up'
@@ -2726,7 +2719,8 @@ const YOGA_DATA=[
       'Energizes the heart'
     ],
     category: 'Surya Namaskara',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Parvatasana',
     imageUrl: 'assets/images/yoga/surya/su8.png',
     id: 'su8',
@@ -2734,7 +2728,6 @@ const YOGA_DATA=[
     description: [
       'Prayer to be chanted in Parvatasana:',
       'ॐ मरीचये नमः । Om Mareechaye Namaha',
-
       'Lift the hips and the tail bone up',
       'Keep the chest downwards while breathing out'
     ],
@@ -2744,7 +2737,8 @@ const YOGA_DATA=[
       'Stretches Hand, Hamstring, Shoulder, Calf, Arches of the foot'
     ],
     category: 'Surya Namaskara',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Ashwa Sanchalanasana',
     imageUrl: 'assets/images/yoga/surya/su9.png',
     id: 'su9',
@@ -2752,7 +2746,6 @@ const YOGA_DATA=[
     description: [
       'Prayer to be chanted in the pose:',
       'ॐ आदित्याय नम: । Om Aadityaaya Namaha',
-
       'Breathe in and bring the right foot forward in between two hands',
       'Keep left knee down to the floor',
       'Press the hips down and look up'
@@ -2762,7 +2755,8 @@ const YOGA_DATA=[
       'Good for digestion, constipation, and sciatica.',
     ],
     category: 'Surya Namaskara',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Hasta Padasana',
     imageUrl: 'assets/images/yoga/surya/su10.png',
     id: 'su10',
@@ -2770,7 +2764,6 @@ const YOGA_DATA=[
     description: [
       'Prayer to be chanted in the pose:',
       'ॐ सवित्रे नमः । Om Savitre Namaha',
-
       'Bring the left foot forward while breathing out',
       'Keep the palms on the floor'
     ],
@@ -2783,7 +2776,8 @@ const YOGA_DATA=[
       'Increase blood circulation in the brain.',
     ],
     category: 'Surya Namaskara',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Hastauttanasana',
     imageUrl: 'assets/images/yoga/surya/su11.png',
     id: 'su11',
@@ -2791,7 +2785,6 @@ const YOGA_DATA=[
     description: [
       'Prayer to be chanted in the pose:',
       'ॐ अर्काय नमः । Om Arkaaya Namaha',
-
       'Breathe in and roll the spine up',
       'Raise your arms and bend backwards pushing the hips slightly outward'
     ],
@@ -2801,7 +2794,8 @@ const YOGA_DATA=[
       'It expands the chest and the rib cage resulting in full intake of oxygen.'
     ],
     category: 'Surya Namaskara',
-  ),const Yoga(
+  ),
+  const Yoga(
     title: 'Pranamasana',
     imageUrl: 'assets/images/yoga/surya/su12.png',
     id: 'su12',
@@ -2818,6 +2812,4 @@ const YOGA_DATA=[
     ],
     category: 'Surya Namaskara',
   ),
-
-
 ];

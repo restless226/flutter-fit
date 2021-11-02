@@ -1,14 +1,14 @@
 import 'package:pbl_fitness_app/models/gym_model.dart';
 
-const GYM_DATA=const[
-
+const GYM_DATA = const [
   // SHOULDER
   const Gym(
     title: 'Barbell Overhead Shoulder Press',
-    imageUrl: 'https://cdn2.coachmag.co.uk/sites/coachmag/files/2016/07/4-1-overhead-press.jpg',
+    imageUrl:
+        'https://cdn2.coachmag.co.uk/sites/coachmag/files/2016/07/4-1-overhead-press.jpg',
     id: 's1',
     difficulty: '',
-    description:[
+    description: [
       'Start by standing with your feet about shoulder-width apart. Your hips should be fully extended, as should your knees, but be careful not to lock your knees.',
       'Hold the barbell in a front-rack position.',
       'Breathe, tighten your core, and press the barbell overhead. Press until your arms are fully locked out. Press your head through the “window” made by your arms.',
@@ -19,12 +19,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ), const Gym(
+  ),
+  const Gym(
     title: 'Seated Dumbbell Shoulder Press',
-    imageUrl: 'https://lifestylegeeky.com/wp-content/uploads/2019/05/Seated_Dumbbell_Overhead_Press-1024x886.jpg',
+    imageUrl:
+        'https://lifestylegeeky.com/wp-content/uploads/2019/05/Seated_Dumbbell_Overhead_Press-1024x886.jpg',
     id: 's2',
     difficulty: '',
-    description:[
+    description: [
       'Sit on an upright bench holding a dumbbell in each hand at shoulder height with your palms facing away from you.',
       'Keep your chest up and your core braced, and look straight forward throughout the move.',
       'Press the weights directly upwards until your arms are straight and the weights touch above your head.',
@@ -34,12 +36,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ), const Gym(
+  ),
+  const Gym(
     title: 'Front Raise',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhbobeVvhEO9ayC9EhcDKvPWnRBSGzPA4jAw&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhbobeVvhEO9ayC9EhcDKvPWnRBSGzPA4jAw&usqp=CAU',
     id: 's3',
     difficulty: '',
-    description:[
+    description: [
       'Stand with feet about shoulder-width apart. Keep the back straight and feet planted flat on the floor. Your arms holding weights should hang down.',
       'Hold the dumbbells across the thighs horizontally, palms facing back toward the thighs. Ensure that you have a firm grip.',
       'Brace the abdominal muscles.',
@@ -51,12 +55,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ), const Gym(
+  ),
+  const Gym(
     title: 'Reverse Pec Deck Fly',
-    imageUrl: 'https://the-optimal-you.com/wp-content/uploads/2017/01/the-optimal-you-reverse-pec-fly-600x315.jpg',
+    imageUrl:
+        'https://the-optimal-you.com/wp-content/uploads/2017/01/the-optimal-you-reverse-pec-fly-600x315.jpg',
     id: 's4',
     difficulty: '',
-    description:[
+    description: [
       'Stand with feet shoulder-width apart holding dumbbells at your sides.',
       'Press the hips back in a hinge motion bringing your chest forward almost parallel to the floor.',
       'Exhale and raise both arms out to your side, squeezing the shoulder blades together.',
@@ -69,12 +75,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ), const Gym(
+  ),
+  const Gym(
     title: 'Bent-Over Dumbbell Lateral Raise',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxwgznrdeQUuYYsoU9HA11MSu4bm0_yQ9cKAMLiK-YForSdvt1SqsZCnz5&s=10',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxwgznrdeQUuYYsoU9HA11MSu4bm0_yQ9cKAMLiK-YForSdvt1SqsZCnz5&s=10',
     id: 's5',
     difficulty: '',
-    description:[
+    description: [
       'Grab a set of dumbbells and bend your torso, until your chest is nearly parallel to the floor.',
       'Raise your arms out to the sides as you lift the dumbbells.',
       'Once both arms are parallel to the floor, pause, and then slowly lower them to the starting position.',
@@ -84,12 +92,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ), const Gym(
+  ),
+  const Gym(
     title: 'Dumbbell Lateral Raise',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW3NWig6jZb_J0h9guzXRaDIuRstQPkr9uTA&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW3NWig6jZb_J0h9guzXRaDIuRstQPkr9uTA&usqp=CAU',
     id: 's6',
     difficulty: '',
-    description:[
+    description: [
       'Position your feet roughly hip-distance apart. Check your posture—roll your shoulders back, engage your core, and look straight ahead.',
       'Raise your arms simultaneously just a couple inches out to each side and pause.',
       'Lift the dumbbells up and out to each side, keeping your arms almost completely straight, stopping when your elbows reach shoulder-height and your body is forming a "T" shape.',
@@ -100,12 +110,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ), const Gym(
-      title: 'Push Press',
-      imageUrl: 'https://www.crossfit.com/wp-content/uploads/2019/02/27145014/PushPress_Male_V4-768x512.jpg',
-      id: 's7',
-      difficulty: '',
-      description:[
+  ),
+  const Gym(
+    title: 'Push Press',
+    imageUrl:
+        'https://www.crossfit.com/wp-content/uploads/2019/02/27145014/PushPress_Male_V4-768x512.jpg',
+    id: 's7',
+    difficulty: '',
+    description: [
       'Stand with feet hip-distance apart. Place the barbell across your chest at shoulder height so that it rests at your collar bone',
       'Hands should be placed on the bar slightly wider than shoulder-distance apart with palms facing forward.',
       'Legs should be straight but not locked. Knees and ankles should be aligned directly beneath the hips.',
@@ -114,17 +126,19 @@ const GYM_DATA=const[
       'Once you reach full hip extension, press the bar up. You will have to move the head slightly back to make room for the bar to pass.',
       'Extend the arms fully overhead, keeping the torso properly aligned.',
       'Return the bar to the starting position to begin another repetition.',
-      ],
-      muscle: 'Shoulder',
-      equipment: '',
-      time: null,
-      repetitions: null,
-  ),const Gym(
+    ],
+    muscle: 'Shoulder',
+    equipment: '',
+    time: null,
+    repetitions: null,
+  ),
+  const Gym(
     title: 'Reverse Cable Crossover',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI4PxDvGhnZzWZmxrpTyJbTu3YTjsEBqCgsg&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI4PxDvGhnZzWZmxrpTyJbTu3YTjsEBqCgsg&usqp=CAU',
     id: 's8',
     difficulty: '',
-    description:[
+    description: [
       'Stand with feet shoulder-width apart and grasp the handles with palms facing forwards and hands beside your thighs.',
       'With a slight bend in your elbows, pull both handles up and inwards until your palms face each other in front of your chest.',
       'Squeeze your chest muscles for one to two seconds, then reverse to the start, keeping the movement under control.',
@@ -133,12 +147,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'One-Arm Cable Lateral Raise',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg8VpYbqShOfDuB8-Ta6yCZ2IXn7gJOICzxg&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg8VpYbqShOfDuB8-Ta6yCZ2IXn7gJOICzxg&usqp=CAU',
     id: 's9',
     difficulty: '',
-    description:[
+    description: [
       'The working side of your body should be closest to the cable.',
       'With the outside arm, reach across your body, grab the handle and stand straight up with your arm fully extended and feet facing forward.',
       'Grip the machine with your inside arm for added support.',
@@ -149,12 +165,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Face Pull',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgyBdab6xCE2RZg28-BStlwVB-JaZRjU7GA&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgyBdab6xCE2RZg28-BStlwVB-JaZRjU7GA&usqp=CAU',
     id: 's10',
     difficulty: '',
-    description:[
+    description: [
       'Reach up and grasp the handles with both hands with your palms facing in.',
       'Step back until your arms are fully extended and lean back slightly positioning your body at a roughly 20-degree angle.',
       'Pull the rope toward you just enough to start lifting the weight from the stack, then engage your shoulders.',
@@ -166,12 +184,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'High Pull',
-    imageUrl: 'https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/16x9_480/public/2017/04/barbell-complex-high-pull.jpg?itok=HG96apuY&timestamp=1493041052',
+    imageUrl:
+        'https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/16x9_480/public/2017/04/barbell-complex-high-pull.jpg?itok=HG96apuY&timestamp=1493041052',
     id: 's11',
     difficulty: '',
-    description:[
+    description: [
       'Stand with feet shoulder-width apart, holding the barbell just in front of your shins.',
       'Your grip placement should fall about a hand’s width outside of each leg.',
       'Keeping your glutes and abs engaged, pull the bar upwards in one controlled movement, keeping it close to your body.',
@@ -181,12 +201,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Snatch-Grip High Pull',
-    imageUrl: 'https://external-preview.redd.it/Ssei46td42KSHTpT-y6MVpoN00Jrh2F3ToJrVvCqMt4.jpg?auto=webp&s=d7e4ec7bced99c6e9c7a4bd07f74413bd7e6c6e1',
+    imageUrl:
+        'https://external-preview.redd.it/Ssei46td42KSHTpT-y6MVpoN00Jrh2F3ToJrVvCqMt4.jpg?auto=webp&s=d7e4ec7bced99c6e9c7a4bd07f74413bd7e6c6e1',
     id: 's12',
     difficulty: '',
-    description:[
+    description: [
       'Grab the bar 4-6 inches wider then shoulder width apart and stand with your feet about shoulder width apart.',
       'Bend at the knees and squat down like you are sitting in a chair.',
       'Keep the bar in tight to your body. Stand up and pull the bar up with you.',
@@ -199,12 +221,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
-      title: 'Trap Raise',
-      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxOL3RH0Gaq4y1NhrRO4-vGyWjy_qWZdhlAQ&usqp=CAU',
-      id: 's13',
-      difficulty: '',
-      description:[
+  ),
+  const Gym(
+    title: 'Trap Raise',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxOL3RH0Gaq4y1NhrRO4-vGyWjy_qWZdhlAQ&usqp=CAU',
+    id: 's13',
+    difficulty: '',
+    description: [
       'Grab a dumbbell with your right hand.',
       'Place your left forearm on the top of the incline bench and lean forward, resting your forehead on your forearm.',
       'Stagger your stance so that the opposite foot is forward (left foot in this case) and maintain a natural arch in your lower back.',
@@ -212,17 +236,19 @@ const GYM_DATA=const[
       'Begin by retracting your shoulder blade and then raise the dumbbell up to shoulder height.',
       'Protract shoulder blade and lower weight back down to starting position.',
       'Repeat for the desired amount of reps and then switch sides.',
-      ],
-  muscle: 'Shoulder',
-  equipment: '',
-  time: null,
-  repetitions: null,
-  ),const Gym(
+    ],
+    muscle: 'Shoulder',
+    equipment: '',
+    time: null,
+    repetitions: null,
+  ),
+  const Gym(
     title: 'Dumbbell Neutral Grip Overhead Press',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdtjzTWus_CBVuognJkMu-e9NO_kvTV7oCcw&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdtjzTWus_CBVuognJkMu-e9NO_kvTV7oCcw&usqp=CAU',
     id: 's14',
     difficulty: '',
-    description:[
+    description: [
       'Stand with your feet shoulder width apart and a dumbbell in each hand, palms facing inward.',
       'Raise the dumbbells straight overhead so that your arms are fully extended and your palms are facing inward. This is starting position.',
       'Inhale and bend your arms straight down as you lower the dumbbells to your shoulders.',
@@ -235,16 +261,14 @@ const GYM_DATA=const[
     repetitions: null,
   ),
 
-
-
-
   // ABS
   const Gym(
     title: 'Exercise Ball Pull-In',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScTIcASG9zIuvm4d1WsGRD8xXfLjloquCUjw&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScTIcASG9zIuvm4d1WsGRD8xXfLjloquCUjw&usqp=CAU',
     id: 'a1',
     difficulty: '',
-    description:[
+    description: [
       'Start off lying down as if you were performing a pushup and place your feet and shins over either an exercise or stability ball.',
       'Make sure that you keep your back straight and supporting your weight with your hands.',
       'Slowly pull your knees towards your chest in a controlled manner so that the ball rolls forward under your ankles.',
@@ -255,12 +279,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Dumbbell crunch',
-    imageUrl: 'https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/barbell4.jpg?itok=qKepHjb9',
+    imageUrl:
+        'https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/barbell4.jpg?itok=qKepHjb9',
     id: 'a2',
     difficulty: '',
-    description:[
+    description: [
       'Lie on the floor or a mat on your back, with knees bent.',
       'Grasp a lightweight dumbbell in two hands, palms facing out, arms extended straight into the air above your shoulders.',
       'Feet should be flat on the ground. Keep a space between your chin and chest (looking diagonal towards the ceiling)',
@@ -271,12 +297,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Tuck and crunch',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW43_z1HsC9fSco7RJA-dHbzEHmcHvA9_w3A&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW43_z1HsC9fSco7RJA-dHbzEHmcHvA9_w3A&usqp=CAU',
     id: 'a3',
     difficulty: '',
-    description:[
+    description: [
       'Lie on your back on an exercise mat on the floor.',
       'Cross your arms over your chest and grasp your opposing shoulders.',
       'Raise your legs off the floor by bending your knees and keeping your calves parallel with the floor.This is your starting position.',
@@ -287,12 +315,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Modified V-sit',
-    imageUrl: 'https://bodybuilding-wizard.com/wp-content/uploads/2015/07/modified-v-sit-exercise-1.jpg',
+    imageUrl:
+        'https://bodybuilding-wizard.com/wp-content/uploads/2015/07/modified-v-sit-exercise-1.jpg',
     id: 'a4',
     difficulty: '',
-    description:[
+    description: [
       'Lie on a gym mat with your arms on the floor next to your body, your legs straight and your feet slightly raised off the floor.',
       'Keeping your back straight throughout bringing your lower back off the mat and your knees in to your chest.',
       'Keep your glutes engaged at all times so you can balance on them at the top of the movement.',
@@ -302,12 +332,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Crunch',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CmrPBSu-SRG2c878RYgyqttXdoG3prG6AA&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CmrPBSu-SRG2c878RYgyqttXdoG3prG6AA&usqp=CAU',
     id: 'a5',
     difficulty: '',
-    description:[
+    description: [
       'Lie down on your back. Plant your feet on the floor, hip-width apart.',
       'Bend your knees and place your arms across your chest. Contract your abs and inhale.',
       'Exhale and lift your upper body, keeping your head and neck relaxed.',
@@ -317,12 +349,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Hanging leg raise',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZZz2nUZG3fVNuZ322RBllfVPm8tS690R6TQ&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZZz2nUZG3fVNuZ322RBllfVPm8tS690R6TQ&usqp=CAU',
     id: 'a6',
     difficulty: '',
-    description:[
+    description: [
       'Grasp a bar above your head. You can try an overhand grip with your thumb around the bar to improve stability.',
       'Tilt your pelvis slightly backward. Engage your abdominals and hip flexors to lift your feet off the ground.',
       'Exhale while lifting the legs. Feel the abdominal muscles working hard as you do this.',
@@ -335,27 +369,31 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Hanging knee raise twist',
-    imageUrl: 'https://origympersonaltrainercourses.co.uk/files/img_cache/3719/500_1567427219_hangingkneeraisestothesideimage.jpg',
+    imageUrl:
+        'https://origympersonaltrainercourses.co.uk/files/img_cache/3719/500_1567427219_hangingkneeraisestothesideimage.jpg',
     id: 'a7',
     difficulty: '',
-    description:[
-    'Grab a pull-up bar and lower yourself into a dead hang.',
-    'Let your legs straighten and pull your pelvis back slightly.',
-    'Tense your core and raise your legs across your body to the left until your thighs are perpendicular to your torso. Pause, then lower.',
-    'Repeat for the right side. That is one repetition',
+    description: [
+      'Grab a pull-up bar and lower yourself into a dead hang.',
+      'Let your legs straighten and pull your pelvis back slightly.',
+      'Tense your core and raise your legs across your body to the left until your thighs are perpendicular to your torso. Pause, then lower.',
+      'Repeat for the right side. That is one repetition',
     ],
     muscle: 'Abs',
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Hanging knee raise',
-    imageUrl: 'https://origympersonaltrainercourses.co.uk/files/img_cache/3720/500_1567427297_howtodothehangingkneeraiseimage.jpg',
+    imageUrl:
+        'https://origympersonaltrainercourses.co.uk/files/img_cache/3720/500_1567427297_howtodothehangingkneeraiseimage.jpg',
     id: 'a8',
     difficulty: '',
-    description:[
+    description: [
       'Hang from a bar with your body straight, using an overhand grip.',
       'Engage your abs and raise your legs, keeping them straight, until they are at 90° to your torso.',
       'Then lower your legs back to the start under control.',
@@ -364,12 +402,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Garhammer raise',
-    imageUrl: 'https://i0.wp.com/www.strongandleanaustralia.com.au/wp-content/uploads/2017/04/The-Best-Ab-Exercise.jpg',
+    imageUrl:
+        'https://i0.wp.com/www.strongandleanaustralia.com.au/wp-content/uploads/2017/04/The-Best-Ab-Exercise.jpg',
     id: 'a9',
     difficulty: '',
-    description:[
+    description: [
       'Hang from a pull-up bar and bring your knees up until your thighs are horizontal – this is your starting position.',
       'From there bring your knees further up towards your chest as high as you can.',
       'Then lower your knees slowly back to the starting position.',
@@ -378,27 +418,31 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Decline plank with foot touch',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnsimCyLY_4IcxXDGGsbv-YzBu3G_mDHlsJQ&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnsimCyLY_4IcxXDGGsbv-YzBu3G_mDHlsJQ&usqp=CAU',
     id: 'a10',
     difficulty: '',
-    description:[
-    'With your feet on a raised platform, bench or gym ball, hold your body in a straight line.',
-    'From head to heels with your elbows beneath your shoulders and your head looking down.',
-    'Hold the position and, without letting your hips sag, lift one foot up and out to the side. then lower it to the floor.',
-    'Once you have touched the ground, return that leg to the start position and repeat with your other leg.',
-  ],
-  muscle: 'Abs',
-  equipment: '',
-  time: null,
+    description: [
+      'With your feet on a raised platform, bench or gym ball, hold your body in a straight line.',
+      'From head to heels with your elbows beneath your shoulders and your head looking down.',
+      'Hold the position and, without letting your hips sag, lift one foot up and out to the side. then lower it to the floor.',
+      'Once you have touched the ground, return that leg to the start position and repeat with your other leg.',
+    ],
+    muscle: 'Abs',
+    equipment: '',
+    time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Seated Russian twist',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuxJ6JMTfp97HY0G_DO3fwH_mIeVfizkk_rQ&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuxJ6JMTfp97HY0G_DO3fwH_mIeVfizkk_rQ&usqp=CAU',
     id: 'a11',
     difficulty: '',
-    description:[
+    description: [
       'Start by sitting on the floor, with your knees bent and feet flat on the ground.',
       'Then lean back so your upper body is at a 45-degree angle to the floor.',
       'Keep your back straight at this angle throughout the exercise, as it will be tempting to hunch your shoulders forward.',
@@ -409,12 +453,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Bicycle crunches',
-    imageUrl: 'https://cdn.prod.openfit.com/uploads/2017/10/bb_bicycle-crunch.jpg',
+    imageUrl:
+        'https://cdn.prod.openfit.com/uploads/2017/10/bb_bicycle-crunch.jpg',
     id: 'a12',
     difficulty: '',
-    description:[
+    description: [
       'Lie on your back, lift your shoulders off the mat and raise both legs.',
       'Bring one knee and the opposing elbow close to each other by crunching to one side, and fully extend the other leg.',
       'Return to the starting position and then crunch to the opposite side.',
@@ -424,12 +470,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Plank',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuw5NFCELVyXxvruGdcMRJ-2SuAMmdy83eqg&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuw5NFCELVyXxvruGdcMRJ-2SuAMmdy83eqg&usqp=CAU',
     id: 'a13',
     difficulty: '',
-    description:[
+    description: [
       'Assume a push-up position but bend your arms at your elbows so your weight rests on your forearms.',
       'Tighten your abs, clench your glutes and keep your body straight from head to heels.',
       'Hold as long as you can.',
@@ -440,17 +488,14 @@ const GYM_DATA=const[
     repetitions: null,
   ),
 
-
-
-
-
   // BACK
   const Gym(
     title: 'Barbell Deadlift',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvDiFfcoXybwOvybWPe_QsWzHi5WNweFBjug&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvDiFfcoXybwOvybWPe_QsWzHi5WNweFBjug&usqp=CAU',
     id: 'b1',
     difficulty: '',
-    description:[
+    description: [
       'Walk to the bar. Stand with your mid-foot under the bar.',
       'Grab the bar. Bend over without bending your legs.',
       'Bend your knees. Drop into position by bending your knees until your shins touch the bar.',
@@ -461,12 +506,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Bent-Over Barbell Row',
-    imageUrl: 'https://cdn2.coachmag.co.uk/sites/coachmag/files/2016/07/3-2a-barbell-bent-over-row.jpg',
+    imageUrl:
+        'https://cdn2.coachmag.co.uk/sites/coachmag/files/2016/07/3-2a-barbell-bent-over-row.jpg',
     id: 'b2',
     difficulty: '',
-    description:[
+    description: [
       'With a barbell in each hand, bend over at about a 45-degree angle.',
       'Keep the back straight throughout the exercise.',
       'Lift the weights straight up, exhaling.',
@@ -477,27 +524,31 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
-      title: 'Wide-Grip Pull-Up',
-      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSny3SVZgYN-latQDcHd0BUwEPL36QQeekwDw&usqp=CAU',
-      id: 'b3',
-      difficulty: '',
-      description:[
+  ),
+  const Gym(
+    title: 'Wide-Grip Pull-Up',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSny3SVZgYN-latQDcHd0BUwEPL36QQeekwDw&usqp=CAU',
+    id: 'b3',
+    difficulty: '',
+    description: [
       'Reach up and grab the bar with each hand.',
       'When positioned correctly, your arms and torso should form a "Y" shape',
       'Look straight ahead and pull your body upwards towards the bar.',
       'Pause, then lower yourself back down to the original position.',
-      ],
-  muscle: 'Back',
-  equipment: '',
-  time: null,
-  repetitions: null,
-  ),const Gym(
+    ],
+    muscle: 'Back',
+    equipment: '',
+    time: null,
+    repetitions: null,
+  ),
+  const Gym(
     title: 'Standing T-Bar Row',
-    imageUrl: 'https://the-optimal-you.com/wp-content/uploads/2017/01/the-optimal-you-t-bar-row-600x328.jpg',
+    imageUrl:
+        'https://the-optimal-you.com/wp-content/uploads/2017/01/the-optimal-you-t-bar-row-600x328.jpg',
     id: 'b4',
     difficulty: '',
-    description:[
+    description: [
       'Place the end of an empty barbell into the corner of a room.',
       'Rest a heavy dumbbell or some weight plates on it to hold it down.',
       'Load the opposite end of the bar with plates and straddle it.',
@@ -509,12 +560,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Seated Cable Row',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR74HCJ1Ae6JLI4Yd-SETgsfwd9-Kr8Bf_XWA&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR74HCJ1Ae6JLI4Yd-SETgsfwd9-Kr8Bf_XWA&usqp=CAU',
     id: 'b5',
     difficulty: '',
-    description:[
+    description: [
       'Pull the handle and weight back toward the lower abdomen by moving the torso backward with the arms.',
       'Target the middle to upper back by keeping your back straight and squeezing your shoulder blades together as you row, chest out.',
       'Return the handle forward under tension to full stretch, remembering to keep that back straight even though flexed at the hips.',
@@ -524,12 +577,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Close-Grip Pull-Down',
-    imageUrl: 'https://cdn2.coachmag.co.uk/sites/coachmag/files/styles/parallax_small/public/images/dir_0/mens_fitness_204.jpg?itok=9ubJj3eg&timestamp=1369282187',
+    imageUrl:
+        'https://cdn2.coachmag.co.uk/sites/coachmag/files/styles/parallax_small/public/images/dir_0/mens_fitness_204.jpg?itok=9ubJj3eg&timestamp=1369282187',
     id: 'b6',
     difficulty: '',
-    description:[
+    description: [
       'Sit on a bench facing an adjustable cable machine with a straight-bar attachment positioned at the high setting.',
       'Fully extend your arms upward to grab the bar, your hands three to five inches apart and both palms facing your body.',
       'Keeping your shoulders down and back, maintain a slight arch in your back and pull the bar down until it touches your chest.',
@@ -539,12 +594,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Single-Arm Dumbbell Row',
-    imageUrl: 'https://www.verywellfit.com/thmb/L0nMCoW3d-ofQ8600GmYuZ3fYWg=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/DominicDiSaia-56a8f3803df78cf772a22c14.jpg',
+    imageUrl:
+        'https://www.verywellfit.com/thmb/L0nMCoW3d-ofQ8600GmYuZ3fYWg=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/DominicDiSaia-56a8f3803df78cf772a22c14.jpg',
     id: 'b7',
     difficulty: '',
-    description:[
+    description: [
       'With a dumbbell on each side of a flat bench, place your right hand and your right knee on the flat bench.',
       'With a straight back grasp the left hand side dumbbell with your left hand, palm facing towards you.',
       'Exhaling, bring the dumbbell straight up to your chest by bending the elbow back to a 90 degree angle.',
@@ -555,12 +612,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Decline Bench Dumbbell Pull-Over',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSjojkXBeRoT-s7SV0yoHgmvvLlEizaq3Fg&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSjojkXBeRoT-s7SV0yoHgmvvLlEizaq3Fg&usqp=CAU',
     id: 'b8',
     difficulty: '',
-    description:[
+    description: [
       'Lie down on a decline bench with both legs securely locked in position.',
       'Reach for the dumbbell behind the head. Slowly lift the dumbbell up from the floor by using your arms.',
       'When positioned properly, your arms should be fully extended and perpendicular to the floor. This is the starting position.',
@@ -575,30 +634,32 @@ const GYM_DATA=const[
     repetitions: null,
   ),
 
-
   // BICEP
   const Gym(
-      title: 'Incline Dumbbell Hammer Curl',
-      imageUrl: 'https://the-optimal-you.com/wp-content/uploads/2017/01/the-optimal-you-incline-hammer-curls-600x328.jpg',
-      id: 'bi1',
-      difficulty: '',
-      description:[
+    title: 'Incline Dumbbell Hammer Curl',
+    imageUrl:
+        'https://the-optimal-you.com/wp-content/uploads/2017/01/the-optimal-you-incline-hammer-curls-600x328.jpg',
+    id: 'bi1',
+    difficulty: '',
+    description: [
       'Sit down against the workout bench, keeping your back straight and your abdominal muscles tight.',
       'Your weights should be at your sides to start, one in each hand.',
       'When you have gotten the starting position down, lift each dumbbell, palms up, toward your shoulders.',
       'Slowly lower the dumbbells back down to your starting position.',
       'Repeat the movement up to 15 times for 3 sets.',
-      ],
-  muscle: 'Bicep',
-  equipment: '',
-  time: null,
-  repetitions: null,
-  ),const Gym(
+    ],
+    muscle: 'Bicep',
+    equipment: '',
+    time: null,
+    repetitions: null,
+  ),
+  const Gym(
     title: 'Incline Inner-Biceps Curl',
-    imageUrl: 'http://canfitness.com/wp-content/uploads/2018/03/Incline-Inner-Biceps-Curl.jpg',
+    imageUrl:
+        'http://canfitness.com/wp-content/uploads/2018/03/Incline-Inner-Biceps-Curl.jpg',
     id: 'bi2',
     difficulty: '',
-    description:[
+    description: [
       'Adjust and incline bench to a 45 degree angle.',
       'Grasp dumbbells in each hand with and sit down with your back against the bench, with your feet resting on the floor for support.',
       'Allow your arms to hang down at your sides, your palms facing your body.',
@@ -609,12 +670,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'EZ-Bar Curl',
-    imageUrl: 'https://the-optimal-you.com/wp-content/uploads/2017/01/the-optimal-you-EZ-bar-curl-600x328.jpg',
+    imageUrl:
+        'https://the-optimal-you.com/wp-content/uploads/2017/01/the-optimal-you-EZ-bar-curl-600x328.jpg',
     id: 'bi3',
     difficulty: '',
-    description:[
+    description: [
       'Grab an EZ-Bar with an underhand grip. Make sure your hands are about six inches apart.',
       'Keep a tight posture and stand upright with your feet about shoulder-width apart.',
       'Curl the bar until your biceps fully contract.',
@@ -624,12 +687,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Wide-Grip Standing Barbell Curl',
-    imageUrl: 'http://s3.amazonaws.com/prod.skimble/assets/1329050/image_iphone.jpg',
+    imageUrl:
+        'http://s3.amazonaws.com/prod.skimble/assets/1329050/image_iphone.jpg',
     id: 'bi4',
     difficulty: '',
-    description:[
+    description: [
       'Stand upright with your feet shoulder width apart.',
       'Grasp a barbell so that your arms are fully extended downward with your hands wider than shoulder width apart.',
       'Without moving your upper arms, exhale and bend your arms, contracting your biceps as you raise the barbell to your chest.',
@@ -641,12 +706,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Zottman Curl',
-    imageUrl: 'https://www.americangrit.com/wp-content/uploads/2017/10/standing-zottman-curl-exercise.jpg',
+    imageUrl:
+        'https://www.americangrit.com/wp-content/uploads/2017/10/standing-zottman-curl-exercise.jpg',
     id: 'bi5',
     difficulty: '',
-    description:[
+    description: [
       'Hold a pair of dumbbells by your sides with your palms facing.',
       'Curl the weights up to your shoulders, keeping your upper arms still and turning your hands so your palms face up as you lift.',
       'Pause at the top of the movement and slowly rotate your grip so your palms are facing downwards.',
@@ -656,12 +723,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Barbell Curl',
-    imageUrl: 'https://muscularstrength.com/uploads/froala/258686a0c0f61c97275b1b2130bd71316cb5cf13.jpg',
+    imageUrl:
+        'https://muscularstrength.com/uploads/froala/258686a0c0f61c97275b1b2130bd71316cb5cf13.jpg',
     id: 'bi6',
     difficulty: '',
-    description:[
+    description: [
       'Stand tall with your chest up and core braced, holding the barbell with your hands just outside of your hips, using an underhand grip.',
       'Keeping your chest up and your elbows tight to your sides, initiate the move by raising your hands slightly.',
       'While maintaining tension on your biceps, curl the bar up to shoulder height, then give your biceps a one-second squeeze.',
@@ -671,12 +740,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Hammer Curl',
-    imageUrl: 'https://cdn1.coachmag.co.uk/sites/coachmag/files/2018/04/dumbbell-hammer-curl.jpg',
+    imageUrl:
+        'https://cdn1.coachmag.co.uk/sites/coachmag/files/2018/04/dumbbell-hammer-curl.jpg',
     id: 'bi7',
     difficulty: '',
-    description:[
+    description: [
       'Stand up straight with your torso upright. Hold a dumbbell in each hand at arms-length. Your elbows should be close to your torso.',
       'The palms of your hands should be facing your torso. This is the starting position for the exercise.',
       'Curl the weight forward while contracting your biceps. Your upper arm should remain stationary.',
@@ -689,12 +760,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Overhead Cable Curl',
-    imageUrl: 'https://valleyfitnessnutrition.com/wp-content/uploads/2014/03/Overhead-Cable-Curl-600x275.jpg',
+    imageUrl:
+        'https://valleyfitnessnutrition.com/wp-content/uploads/2014/03/Overhead-Cable-Curl-600x275.jpg',
     id: 'bi8',
     difficulty: '',
-    description:[
+    description: [
       'Stand between two overhead pulleys and grasp a stirrup in each hand.',
       'Raise your arms so that they are parallel to the floor.',
       'Supinate your forearms (turn your palms upward).',
@@ -709,15 +782,14 @@ const GYM_DATA=const[
     repetitions: null,
   ),
 
-
-
   // CHEST
   const Gym(
     title: 'Barbell Bench Press',
-    imageUrl: 'https://cdn2.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2016/07/1-1-bench-press.jpg?itok=QpV4FR3Z',
+    imageUrl:
+        'https://cdn2.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2016/07/1-1-bench-press.jpg?itok=QpV4FR3Z',
     id: 'c1',
     difficulty: '',
-    description:[
+    description: [
       'Lie flat on your back on a bench.',
       'Grip the bar with hands just wider than shoulder-width apart. This allows for maximum force generation.',
       'Bring the bar slowly down to your chest as you breathe in.',
@@ -727,12 +799,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Flat Bench Dumbbell Press',
-    imageUrl: 'https://ignorelimits.com/wp-content/uploads/2016/08/how-to-dumbbell-flat-bench-press-768x384.jpg',
+    imageUrl:
+        'https://ignorelimits.com/wp-content/uploads/2016/08/how-to-dumbbell-flat-bench-press-768x384.jpg',
     id: 'c2',
     difficulty: '',
-    description:[
+    description: [
       'Set up a bench flat and sit with your feet flat on the floor and your back on the bench.',
       'Lift the dumbbells to chest height with your palms facing forwards.',
       'Breathe out and push the dumbbells up until your arms are fully extended, using your pecs to power the movement.',
@@ -743,28 +817,32 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
-      title: 'Low-Incline Barbell Bench Press',
-      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk63Fu-0XWNkG6KyzZJWtXTAkq4fgvebDHVQ&usqp=CAU',
-      id: 'c3',
-      difficulty: '',
-      description:[
+  ),
+  const Gym(
+    title: 'Low-Incline Barbell Bench Press',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk63Fu-0XWNkG6KyzZJWtXTAkq4fgvebDHVQ&usqp=CAU',
+    id: 'c3',
+    difficulty: '',
+    description: [
       'Position your body on an incline bench on a 30-45 degree angle.',
       'Grab a barbell with an overhand grip that is shoulder-width apart and hold it above your chest.',
       'Extend arms upward, locking out elbows.',
       'Lower the bar straight down in a slow, controlled movement to your chest.',
       'Pause, then press the bar in a straight line back up to the starting position.',
-      ],
-  muscle: 'Chest',
-  equipment: '',
-  time: null,
-  repetitions: null,
-  ),const Gym(
+    ],
+    muscle: 'Chest',
+    equipment: '',
+    time: null,
+    repetitions: null,
+  ),
+  const Gym(
     title: 'Seated Machine Chest Press',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBzvDiU0ag4yhNSLCru6YiejElUwvcj_N2mg&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBzvDiU0ag4yhNSLCru6YiejElUwvcj_N2mg&usqp=CAU',
     id: 'c4',
     difficulty: '',
-    description:[
+    description: [
       'Adjust the seat so that the handles are approximately chest height.',
       'Sit in the chest press machine with your back pressed firmly against the back rest.',
       'Grasp the handles with a pronated (overhand) grip.',
@@ -777,12 +855,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Incline Dumbbell Press',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCVtRZWDLFuS6i97kn0yrAKVcffhsncCpVQQ&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCVtRZWDLFuS6i97kn0yrAKVcffhsncCpVQQ&usqp=CAU',
     id: 'c5',
     difficulty: '',
-    description:[
+    description: [
       'Set an adjustable bench to an incline of 30-45 degrees.',
       'Lie on your back on the bench and hold a pair of dumbbells directly above your shoulders with your arms fully.',
       'Pull your shoulder blades together, and slightly stick out your chest.',
@@ -793,12 +873,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Dips For Chest',
-    imageUrl: 'https://madbarzpictures.blob.core.windows.net/madbarzpictures/16122925_596970827156737_2401573818742079488_n.jpg',
+    imageUrl:
+        'https://madbarzpictures.blob.core.windows.net/madbarzpictures/16122925_596970827156737_2401573818742079488_n.jpg',
     id: 'c6',
     difficulty: '',
-    description:[
+    description: [
       'Always keep your torso angled forward at 20 to 30 degrees.',
       'Point your heels behind you and keep your knees bent so your thighs are perpendicular to your calves.',
       'Focus on using your chest muscles more than your arms when you lift yourself back up.',
@@ -808,12 +890,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Incline Bench Cable Fly',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA5XPHDQX217Q1CYCUNkpYPE8beIoSk_KWbw&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA5XPHDQX217Q1CYCUNkpYPE8beIoSk_KWbw&usqp=CAU',
     id: 'c7',
     difficulty: '',
-    description:[
+    description: [
       'Set pulleys up at the floor level (the lowest possible position below your torso).',
       'Set up an incline bench to 45 degrees in between the pulleys.',
       'Grasping a handle in each hand, lie on the bench and bring your hands together at arms length in front of your face.',
@@ -826,12 +910,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Pec-Deck Machine',
-    imageUrl: 'https://ignorelimits.com/wp-content/uploads/2016/08/How-to-pec-dec-fly-Copy-768x512.jpg',
+    imageUrl:
+        'https://ignorelimits.com/wp-content/uploads/2016/08/How-to-pec-dec-fly-Copy-768x512.jpg',
     id: 'c8',
     difficulty: '',
-    description:[
+    description: [
       'Bend your arms at a 90° angle and keep your elbows at chest level.',
       'Gripping the pec deck handles, pull your arms toward your body while contracting your pectoral muscles.',
       'Bring the handles or arm pads in front of your chest.',
@@ -843,14 +929,14 @@ const GYM_DATA=const[
     repetitions: null,
   ),
 
-
   // LEGS
   const Gym(
     title: 'Squat (High And Low Bar)',
-    imageUrl: 'https://cdn2.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2017/06/back-squat.jpg?itok=oNlNhun8',
+    imageUrl:
+        'https://cdn2.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2017/06/back-squat.jpg?itok=oNlNhun8',
     id: 'l1',
     difficulty: '',
-    description:[
+    description: [
       'Stand straight with feet hip-width apart.',
       'Tighten your stomach muscles.',
       'Lower down, as if sitting in an invisible chair.',
@@ -861,12 +947,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Snatch And Power Clean',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ48akc_i7ap_zUHfvXCroD0s3baGIGI-_8g&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ48akc_i7ap_zUHfvXCroD0s3baGIGI-_8g&usqp=CAU',
     id: 'l2',
     difficulty: '',
-    description:[
+    description: [
       'Lower your body into a squat position and grip the bar so that your palms are facing your legs.',
       'Lift the bar as you stand up, keeping the weight close to your body.',
       'Continue lifting until the bar is at your thighs. The back should be straight and the shoulders should be over the hips.',
@@ -883,12 +971,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Bulgarian Split Squat',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTynPTWXmmaSp2nnADLtsokKkUz3eaz1WB7gQ&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTynPTWXmmaSp2nnADLtsokKkUz3eaz1WB7gQ&usqp=CAU',
     id: 'l3',
     difficulty: '',
-    description:[
+    description: [
       'Get into a forward lunge position with torso upright with your back foot elevated on the bench.',
       'Your leading leg should be half a metre or so in front of bench.',
       'Lower until your front thigh is almost horizontal, keeping your knee in line with your foot.',
@@ -898,28 +988,32 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
-      title: 'Dumbbell Lunge',
-      imageUrl: 'https://get-a-wingman.com/wp-content/uploads/2016/05/Dumbbell-Lunge.jpg',
-      id: 'l4',
-      difficulty: '',
-      description:[
+  ),
+  const Gym(
+    title: 'Dumbbell Lunge',
+    imageUrl:
+        'https://get-a-wingman.com/wp-content/uploads/2016/05/Dumbbell-Lunge.jpg',
+    id: 'l4',
+    difficulty: '',
+    description: [
       'Stand up straight with a dumbbell in each hand. Hang your arms at ​your sides. Palms should face the thighs.',
       'Take a big step forward with either leg, bending at the knee until the front thigh approaches parallel to the ground.',
       'Inhale as you go down. The rear leg is bent at the knee and balanced on the toes. Do not let the knee go past the tip of the toes.',
       'Step back to your standing starting position while exhaling.',
       'Repeat the motion with the other leg.',
-      ],
-  muscle: 'Legs',
-  equipment: '',
-  time: null,
-  repetitions: null,
-  ),const Gym(
+    ],
+    muscle: 'Legs',
+    equipment: '',
+    time: null,
+    repetitions: null,
+  ),
+  const Gym(
     title: 'Romanian Deadlift',
-    imageUrl: 'https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2017/08/romanian-deadlift.jpg?itok=iq8XvLoO',
+    imageUrl:
+        'https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2017/08/romanian-deadlift.jpg?itok=iq8XvLoO',
     id: 'l5',
     difficulty: '',
-    description:[
+    description: [
       'To start the move, stand with the bar or weight in your hands as opposed to the floor.',
       'Slowly lower the weight with a slight bend in your knees, bending at the hips and keeping your back straight.',
       'Lower until you feel a slight stretch in your hamstrings – usually when the weight has just passed your knees.',
@@ -929,12 +1023,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Leg Press',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-64ga1NTntTT2DB5r2PBCh-UMBGqQxoLd2A&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-64ga1NTntTT2DB5r2PBCh-UMBGqQxoLd2A&usqp=CAU',
     id: 'l6',
     difficulty: '',
-    description:[
+    description: [
       'Brace your abdominal muscles and push the platform away with your heels and forefoot.',
       'Your heels should remain flat on the footplate.',
       'While exhaling, extend your legs and keep your head and back flat against the seat pad.',
@@ -945,12 +1041,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Front Squat',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk-cNC9_E3XP_NVbRjk1afaG_MvRLfBDfEg&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNk-cNC9_E3XP_NVbRjk1afaG_MvRLfBDfEg&usqp=CAU',
     id: 'l7',
     difficulty: '',
-    description:[
+    description: [
       'Begin with the barbell across the front side of your shoulders.',
       'Place your fingertips under the barbell just outside of your shoulders and drive your elbows up.',
       'Keeping your chest up and core tight.',
@@ -961,12 +1059,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Legs Deadlift',
-    imageUrl: 'https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/16x9_480/public/2018/03/stiff-leg-deadlift.jpg?itok=vn4gUoFD&timestamp=1520614833',
+    imageUrl:
+        'https://cdn1.coachmag.co.uk/sites/coachmag/files/styles/16x9_480/public/2018/03/stiff-leg-deadlift.jpg?itok=vn4gUoFD&timestamp=1520614833',
     id: 'l8',
     difficulty: '',
-    description:[
+    description: [
       'Stand with your feet shoulder-width apart holding a barbell in an overhand grip (palms facing you).',
       'Your knees should be slightly bent and the aim is to maintain this slight degree of flex throughout the movement.',
       'Bend at your hips and lower the barbell, keeping your back straight.',
@@ -977,12 +1077,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Hack Squat',
-    imageUrl: 'https://origympersonaltrainercourses.co.uk/files/img_cache/4265/500_1571143169_hacksquat3.png',
+    imageUrl:
+        'https://origympersonaltrainercourses.co.uk/files/img_cache/4265/500_1571143169_hacksquat3.png',
     id: 'l9',
     difficulty: '',
-    description:[
+    description: [
       'Place the back of your torso against the back pad of the machine.',
       'Hook your shoulders under the shoulder pads provided.',
       'Your legs should be placed on the platform in a shoulder width position. Keep your toes slightly pointed out.',
@@ -996,12 +1098,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Machine Squat',
-    imageUrl: 'https://trifocusfitnessacademy.co.za/wp-content/uploads/2018/07/Untitled-design-51.jpg',
+    imageUrl:
+        'https://trifocusfitnessacademy.co.za/wp-content/uploads/2018/07/Untitled-design-51.jpg',
     id: 'l10',
     difficulty: '',
-    description:[
+    description: [
       'Position yourself on a Smith Machine so that the barbell is behind your shoulders and slightly below your neck.',
       'Keep your feet shoulder width apart and point your toes slightly outward.',
       'Grasp the barbell with palms facing forward and hands wider than shoulder width apart.',
@@ -1016,15 +1120,14 @@ const GYM_DATA=const[
     repetitions: null,
   ),
 
-
-
   //TRICEP
   const Gym(
     title: 'Skullcrusher',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDzrI-f0VYKUK0Cu51Bj-YDmqNNMgotvGw_A&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDzrI-f0VYKUK0Cu51Bj-YDmqNNMgotvGw_A&usqp=CAU',
     id: 't1',
     difficulty: '',
-    description:[
+    description: [
       'Hold the dumbbell with both hands above your chest, straight up, and with the dumbbell shaft in a vertical position.',
       'Move the weight down toward the rear of your head by flexing your elbows while exhaling.',
       'The motion takes place in the elbows, while upper arms generally remain perpendicular to the body.',
@@ -1035,12 +1138,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Weighted Parallel-Bar Dip',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTicXkZ0ARUfjWlyBuhpzjJ5YF9g9P0Z8xBKg&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTicXkZ0ARUfjWlyBuhpzjJ5YF9g9P0Z8xBKg&usqp=CAU',
     id: 't2',
     difficulty: '',
-    description:[
+    description: [
       'Grab the parallel bars and jump up, straighten your arms.',
       'Lower your body by bending your arms while leaning forward.',
       'Dip down until your shoulders are below your elbows.',
@@ -1051,12 +1156,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Triceps Dip Machine',
-    imageUrl: 'https://bodybuilding-wizard.com/wp-content/uploads/2015/02/machine-tricep-dip-2.jpg',
+    imageUrl:
+        'https://bodybuilding-wizard.com/wp-content/uploads/2015/02/machine-tricep-dip-2.jpg',
     id: 't3',
     difficulty: '',
-    description:[
+    description: [
       'Sit down on a dip machine. Choose a weight and grasp the handles firmly.',
       'Keep your elbows close to your body. They should be bent at a 90 degree angle.',
       'Contract your triceps and extend your arms down as you exhale.',
@@ -1068,12 +1175,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Seated Overhead Dumbbell Extension',
-    imageUrl: 'https://cdn.prod.openfit.com/uploads/2018/04/A-Open_Fit_Alt_Seated_Overhead_Tricep_Ex_770-768x581.jpg',
+    imageUrl:
+        'https://cdn.prod.openfit.com/uploads/2018/04/A-Open_Fit_Alt_Seated_Overhead_Tricep_Ex_770-768x581.jpg',
     id: 't4',
     difficulty: '',
-    description:[
+    description: [
       'Sit on a bench with back support holding a dumbbell in each hand.',
       'Extend your arms fully and raise the dumbbells overhead.',
       'Lower the dumbbells behind your head, bending at the elbows. Keep your elbows steady. Stop just shy of the dumbbell touching your neck.',
@@ -1083,12 +1192,13 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Cable Push-Down',
     imageUrl: 'https://athlosfitness.ca/media/wysiwyg/Tricep-pushdown.jpg',
     id: 't5',
     difficulty: '',
-    description:[
+    description: [
       'Start by bracing your abdominals.',
       'Tuck your elbows in at your sides and position your feet slightly apart.',
       'Inhale. Push down until your elbows are fully extended but not yet in the straight, locked position.',
@@ -1100,12 +1210,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Cable Overhead Extension With Rope',
-    imageUrl: 'https://cdn2.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2017/12/cable-overhead-extension.jpg?itok=RPLPaffY',
+    imageUrl:
+        'https://cdn2.coachmag.co.uk/sites/coachmag/files/styles/insert_main_wide_image/public/2017/12/cable-overhead-extension.jpg?itok=RPLPaffY',
     id: 't6',
     difficulty: '',
-    description:[
+    description: [
       'Start off standing with your feet shoulder-width apart, keeping your back straight and abs tightly drawn in.',
       'Grab and hold onto a rope extension with both hands with your palms facing up.',
       'Raise the rope over your head as this will be your starting position.',
@@ -1117,12 +1229,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Close-Grip Bench Press',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMIyiYAaoNWVj3vljQ62if0MLqGGFzpkPxA&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMIyiYAaoNWVj3vljQ62if0MLqGGFzpkPxA&usqp=CAU',
     id: 't7',
     difficulty: '',
-    description:[
+    description: [
       'Lie on the bench with your feet flat on the floor and grip the barbell with your hands around shoulder-width apart.',
       'They can be slightly closer than that, but don’t move them too close together or the set-up will become unstable.',
       'Brace your core and squeeze your shoulder blades together to stabilise your body. Lower the bar slowly and press up powerfully.',
@@ -1133,12 +1247,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Weighted Bench Dip',
-    imageUrl: 'https://ignorelimits.com/wp-content/uploads/2017/08/how-to-weighted-bench-dips-768x384.jpg',
+    imageUrl:
+        'https://ignorelimits.com/wp-content/uploads/2017/08/how-to-weighted-bench-dips-768x384.jpg',
     id: 't8',
     difficulty: '',
-    description:[
+    description: [
       'Set up for the weighted bench dip by placing 2 flat benches parallel to one another around 4-5 feet apart.',
       'Place your hands on the edge of the other bench as shown in the video.',
       'Put your heels on the edge of the opposite bench at around shoulder width apart.',
@@ -1150,12 +1266,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Board Press',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD5R2UhNswonor4rXiEkeP6i6bQTCUNpLs9Q&usqp=CAU',
+    imageUrl:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD5R2UhNswonor4rXiEkeP6i6bQTCUNpLs9Q&usqp=CAU',
     id: 't9',
     difficulty: '',
-    description:[
+    description: [
       'Lay on your back on a standard flat weight bench and grasp the barbell overhead.',
       'Have a partner place and hold 3 boards stacked on top of each other on top of your chest.',
       'Lower the barbell to touch the top board and then press the weight back up.',
@@ -1164,12 +1282,14 @@ const GYM_DATA=const[
     equipment: '',
     time: null,
     repetitions: null,
-  ),const Gym(
+  ),
+  const Gym(
     title: 'Single-Arm Cable Kick-Back',
-    imageUrl: 'https://bodybuilding-wizard.com/wp-content/uploads/2015/02/cable-tricep-kickback-2.jpg',
+    imageUrl:
+        'https://bodybuilding-wizard.com/wp-content/uploads/2015/02/cable-tricep-kickback-2.jpg',
     id: 't10',
     difficulty: '',
-    description:[
+    description: [
       'Assume a staggered stance with one foot forward in front of a low pulley equipped with a single-handle attachment.',
       'Bend at the waist and support your weight with the front hand on your front knee.',
       'With your other hand, grab the handle and bring your elbow up so that same upper arm is parallel to the floor.',
@@ -1181,5 +1301,4 @@ const GYM_DATA=const[
     time: null,
     repetitions: null,
   ),
-
 ];

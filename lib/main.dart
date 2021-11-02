@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:pbl_fitness_app/screens/first_page.dart';
 import 'package:pbl_fitness_app/screens/home_screen.dart';
-import 'package:pbl_fitness_app/screens/login/login.dart';
 import 'package:pbl_fitness_app/widgets/dark_theme_widget.dart';
+import 'authentication/login.dart';
 
 void main() {
   runApp(MyApp());
 }
-
 
 class MyApp extends StatefulWidget {
   @override
@@ -19,11 +17,14 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     // TODO: implement initState
-
-    // var currentBrightness=ThemeBuilder.of(context).getCurrentTheme();
     super.initState();
   }
 
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -38,10 +39,9 @@ class _MyAppState extends State<MyApp> {
             brightness: _brightness,
           ),
           debugShowCheckedModeBanner: false,
-          title: 'Fitness Application',
-
-          // home: FirstPage(),
+          title: 'Flutter Fit',
           home: LoginScreen(),
+          // home: HomeScreen(),
         );
       },
     );

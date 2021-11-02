@@ -7,25 +7,21 @@ class ProfileScreen extends StatelessWidget {
       appBar: AppBar(
         title: Center(
             child: Text(
-              'Profile',
-              style: TextStyle(
-                  fontSize: 25,
-                  fontFamily: 'QuickSand',
-                  fontWeight: FontWeight.bold
-              ),
-            )
-        ),
+          'Profile',
+          style: TextStyle(
+              fontSize: 25,
+              fontFamily: 'QuickSand',
+              fontWeight: FontWeight.bold),
+        )),
       ),
       body: Container(
         child: Center(
-          child:
-          Text(
+          child: Text(
             'Profile',
             style: TextStyle(
                 fontSize: 25,
                 fontFamily: 'QuickSand',
-                fontWeight: FontWeight.bold
-            ),
+                fontWeight: FontWeight.bold),
           ),
         ),
       ),

@@ -7,25 +7,21 @@ class SettingsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Center(
             child: Text(
-              'Settings',
-              style: TextStyle(
-                  fontSize: 25,
-                  fontFamily: 'QuickSand',
-                  fontWeight: FontWeight.bold
-              ),
-            )
-        ),
+          'Settings',
+          style: TextStyle(
+              fontSize: 25,
+              fontFamily: 'QuickSand',
+              fontWeight: FontWeight.bold),
+        )),
       ),
       body: Container(
         child: Center(
-          child:
-          Text(
+          child: Text(
             'Settings',
             style: TextStyle(
                 fontSize: 25,
                 fontFamily: 'QuickSand',
-                fontWeight: FontWeight.bold
-            ),
+                fontWeight: FontWeight.bold),
           ),
         ),
       ),

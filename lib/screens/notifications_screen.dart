@@ -7,25 +7,21 @@ class NotificationsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Center(
             child: Text(
-              'Notifications',
-              style: TextStyle(
-                  fontSize: 25,
-                  fontFamily: 'QuickSand',
-                  fontWeight: FontWeight.bold
-              ),
-            )
-        ),
+          'Notifications',
+          style: TextStyle(
+              fontSize: 25,
+              fontFamily: 'QuickSand',
+              fontWeight: FontWeight.bold),
+        )),
       ),
       body: Container(
         child: Center(
-          child:
-          Text(
+          child: Text(
             'Notifications',
             style: TextStyle(
                 fontSize: 25,
                 fontFamily: 'QuickSand',
-                fontWeight: FontWeight.bold
-            ),
+                fontWeight: FontWeight.bold),
           ),
         ),
       ),

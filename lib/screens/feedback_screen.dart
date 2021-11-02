@@ -7,25 +7,22 @@ class FeedbackScreen extends StatelessWidget {
       appBar: AppBar(
         title: Center(
             child: Text(
-              'Feedback',
-              style: TextStyle(
-                  fontSize: 25,
-                  fontFamily: 'QuickSand',
-                  fontWeight: FontWeight.bold
-              ),
-            )
-        ),
-      ),
-      body: Container(
-        child: Center(child:
-        Text(
           'Feedback',
           style: TextStyle(
               fontSize: 25,
               fontFamily: 'QuickSand',
-              fontWeight: FontWeight.bold
+              fontWeight: FontWeight.bold),
+        )),
+      ),
+      body: Container(
+        child: Center(
+          child: Text(
+            'Feedback',
+            style: TextStyle(
+                fontSize: 25,
+                fontFamily: 'QuickSand',
+                fontWeight: FontWeight.bold),
           ),
-        ),
         ),
       ),
     );

@@ -3,9 +3,11 @@ import 'package:pbl_fitness_app/data/cardio_data.dart';
 import 'package:pbl_fitness_app/models/cardio_model.dart';
 
 class SubModuleWidgetCardio extends StatefulWidget {
-
   final String ID;
-  SubModuleWidgetCardio(@required this.ID,);
+
+  SubModuleWidgetCardio(
+    @required this.ID,
+  );
 
   @override
   _SubModuleWidgetCardioState createState() => _SubModuleWidgetCardioState();
@@ -14,14 +16,12 @@ class SubModuleWidgetCardio extends StatefulWidget {
 class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
   @override
   Widget build(BuildContext context) {
-
-    List<Cardio> _cardioList=CARDIO_DATA.where((element){
+    List<Cardio> _cardioList = CARDIO_DATA.where((element) {
       return element.id.contains(widget.ID);
     }).toList();
 
-
     print("printing LIST...");
-    for(int i=0;i<_cardioList.length;i++){
+    for (int i = 0; i < _cardioList.length; i++) {
       print(_cardioList.elementAt(i).id);
       print(_cardioList.elementAt(i).title);
       print(_cardioList.elementAt(i).equipment);
@@ -31,24 +31,20 @@ class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
       appBar: AppBar(
         title: Center(
             child: Text(
-              _cardioList.elementAt(0).title,
-              style: TextStyle(
-                  color: Theme.of(context).accentColor,
-                  fontSize: 15,
-                  fontFamily: 'QuickSand',
-                  fontWeight: FontWeight.bold
-              ),
-            )
-        ),
+          _cardioList.elementAt(0).title,
+          style: TextStyle(
+              color: Theme.of(context).accentColor,
+              fontSize: 15,
+              fontFamily: 'QuickSand',
+              fontWeight: FontWeight.bold),
+        )),
       ),
-
-
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(4),
           child: Container(
             width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height*1.5,
+            height: MediaQuery.of(context).size.height * 1.5,
             decoration: BoxDecoration(
               border: Border.all(
                 color: Theme.of(context).primaryColor,
@@ -59,38 +55,34 @@ class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-
-
                 // NETWORK IMAGE
                 ClipRRect(
                   borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(13),
-                      topRight: Radius.circular(13),
-                      bottomRight: Radius.circular(13),
-                      bottomLeft: Radius.circular(13),
+                    topLeft: Radius.circular(13),
+                    topRight: Radius.circular(13),
+                    bottomRight: Radius.circular(13),
+                    bottomLeft: Radius.circular(13),
                   ),
                   // clipBehavior: Clip.hardEdge,
                   child: Center(
                     child: Image.network(
                       _cardioList.elementAt(0).imageUrl,
                       fit: BoxFit.cover,
-                      width:MediaQuery.of(context).size.width,
+                      width: MediaQuery.of(context).size.width,
                       height: 250,
                     ),
                   ),
                 ),
 
-
-
-
                 Padding(
                   padding: EdgeInsets.all(4),
-
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-
-                      Divider(thickness: 1,color: Theme.of(context).accentColor,),
+                      Divider(
+                        thickness: 1,
+                        color: Theme.of(context).accentColor,
+                      ),
 
                       //TITLE
                       Text(
@@ -112,15 +104,18 @@ class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
                             // fontWeight: FontWeight.bold,
-                            fontSize: 15
-                        ),
+                            fontSize: 15),
                         softWrap: true,
                         overflow: TextOverflow.fade,
                       ),
 
-
-                      Divider(thickness: 1,color: Theme.of(context).accentColor,),
-                      SizedBox(height: 8,),
+                      Divider(
+                        thickness: 1,
+                        color: Theme.of(context).accentColor,
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
 
                       // DIFFICULTY
                       Text(
@@ -131,7 +126,6 @@ class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
                           fontWeight: FontWeight.bold,
                           fontSize: 15,
                           decoration: TextDecoration.underline,
-
                         ),
                         softWrap: true,
                         overflow: TextOverflow.fade,
@@ -143,17 +137,18 @@ class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
                             // fontWeight: FontWeight.bold,
-                            fontSize: 15
-                        ),
+                            fontSize: 15),
                         softWrap: true,
                         overflow: TextOverflow.fade,
                       ),
 
-
-                      Divider(thickness: 1,color: Theme.of(context).accentColor,),
-                      SizedBox(height: 8,),
-
-
+                      Divider(
+                        thickness: 1,
+                        color: Theme.of(context).accentColor,
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
 
                       // EQUIPMENT
                       Text(
@@ -175,16 +170,18 @@ class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
                             // fontWeight: FontWeight.bold,
-                            fontSize: 15
-                        ),
+                            fontSize: 15),
                         softWrap: true,
                         overflow: TextOverflow.fade,
                       ),
 
-
-                      Divider(thickness: 1,color: Theme.of(context).accentColor,),
-                      SizedBox(height: 8,),
-
+                      Divider(
+                        thickness: 1,
+                        color: Theme.of(context).accentColor,
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
                     ],
                   ),
                 ),
@@ -206,7 +203,6 @@ class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
                   ),
                 ),
 
-
                 //TODO
                 Expanded(
                   child: Padding(
@@ -214,12 +210,15 @@ class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
                     child: ListView.builder(
                       // physics: NeverScrollableScrollPhysics(),
                       itemCount: _cardioList[0].description.length,
-                      itemBuilder: (context,index){
+                      itemBuilder: (context, index) {
                         print(_cardioList[0].description[index]);
                         print('');
-                        return Text(_cardioList[0].description.length!=0
-                            ? (index+1).toString() +'. '+_cardioList[0].description[index]
-                            :'description is null',
+                        return Text(
+                          _cardioList[0].description.length != 0
+                              ? (index + 1).toString() +
+                                  '. ' +
+                                  _cardioList[0].description[index]
+                              : 'description is null',
                           style: TextStyle(
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
@@ -233,11 +232,13 @@ class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
                   ),
                 ),
 
-
-                Divider(thickness: 1,color: Theme.of(context).accentColor,),
-                SizedBox(height: 4,),
-
-
+                Divider(
+                  thickness: 1,
+                  color: Theme.of(context).accentColor,
+                ),
+                SizedBox(
+                  height: 4,
+                ),
 
                 // BENEFITS
                 Padding(
@@ -256,7 +257,6 @@ class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
                   ),
                 ),
 
-
                 //TODO
                 Expanded(
                   child: Padding(
@@ -264,27 +264,35 @@ class _SubModuleWidgetCardioState extends State<SubModuleWidgetCardio> {
                     child: ListView.builder(
                       physics: NeverScrollableScrollPhysics(),
                       itemCount: _cardioList[0].benefits.length,
-                      itemBuilder: (context,index){
+                      itemBuilder: (context, index) {
                         print(_cardioList[0].benefits[index]);
                         print('');
-                        return Text(_cardioList[0].benefits.length!=0
-                            ? (index+1).toString() +'. '+_cardioList[0].benefits[index]
-                            :'benefits null',
-                            style: TextStyle(
-                                color: Theme.of(context).accentColor,
-                                fontFamily: 'Quicksand',
+                        return Text(
+                          _cardioList[0].benefits.length != 0
+                              ? (index + 1).toString() +
+                                  '. ' +
+                                  _cardioList[0].benefits[index]
+                              : 'benefits null',
+                          style: TextStyle(
+                            color: Theme.of(context).accentColor,
+                            fontFamily: 'Quicksand',
 
-                                fontSize: 15,
-                                // decoration: TextDecoration.underline,
-                            ),
+                            fontSize: 15,
+                            // decoration: TextDecoration.underline,
+                          ),
                         );
                       },
                     ),
                   ),
                 ),
 
-                Divider(thickness: 1,color: Theme.of(context).accentColor,),
-                SizedBox(height: 4,),
+                Divider(
+                  thickness: 1,
+                  color: Theme.of(context).accentColor,
+                ),
+                SizedBox(
+                  height: 4,
+                ),
               ],
             ),
           ),
