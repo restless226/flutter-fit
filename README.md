@@ -1,16 +1,12 @@
-# pbl_fitness_app
+# flutter_fit
 
-A new Flutter application.
+• A fitness application which provides step by step instructions alongwith images 
+  to perform workouts in fitness domains such as Yoga, Gym, Cardio.
 
-## Getting Started
+• Implemented a simple and responsive UI alongwith Dark Mode feature.
 
-This project is a starting point for a Flutter application.
+• Tech stack used: Android, Flutter, Dart
 
-A few resources to get you started if this is your first Flutter project:
+See working demo below 👇
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://user-images.githubusercontent.com/62439428/138387783-4540b061-8958-4be9-b80a-a57e104fbd15.mp4
