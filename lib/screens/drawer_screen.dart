@@ -8,7 +8,7 @@ import 'package:pbl_fitness_app/screens/settings_screen.dart';
 import 'package:pbl_fitness_app/screens/yoga_screen.dart';
 import 'package:pbl_fitness_app/widgets/dark_theme_widget.dart';
 // ignore: import_of_legacy_library_into_null_safe
-import 'package:share/share.dart';
+import 'package:share_plus/share_plus.dart';
 import 'about.dart';
 import 'gym_screen.dart';
 import 'health_tips.dart';
