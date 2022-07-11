@@ -32,6 +32,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.9.2"
+
+flutter_icons:
+   android: true
+   ios: true
+   image_path: "assets/images/logo.jpg"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -321,6 +327,8 @@ flutter:
      - assets/images/login/main.png
      - assets/images/login/top1.png
      - assets/images/login/top2.png
+
+     - assets/images/logo.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
