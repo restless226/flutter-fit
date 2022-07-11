@@ -5,9 +5,10 @@ import 'package:pbl_fitness_app/screens/notifications_screen.dart';
 import 'package:pbl_fitness_app/screens/profile_screen.dart';
 import 'package:pbl_fitness_app/screens/rate_on_playstore_screen.dart';
 import 'package:pbl_fitness_app/screens/settings_screen.dart';
-import 'package:pbl_fitness_app/screens/share_screen.dart';
 import 'package:pbl_fitness_app/screens/yoga_screen.dart';
 import 'package:pbl_fitness_app/widgets/dark_theme_widget.dart';
+// ignore: import_of_legacy_library_into_null_safe
+import 'package:share/share.dart';
 import 'about.dart';
 import 'gym_screen.dart';
 import 'health_tips.dart';
@@ -239,13 +240,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                   style: TextStyle(
                       fontSize: 18, color: Theme.of(context).accentColor),
                 ),
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (BuildContext context) => null,
-                      ));
-                },
+                onTap: () {},
               ),
 
               Divider(
@@ -290,11 +285,8 @@ class _DrawerScreenState extends State<DrawerScreen> {
                       fontSize: 18, color: Theme.of(context).accentColor),
                 ),
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (BuildContext context) => ShareScreen(),
-                      ));
+                  Share.share(
+                      "https://play.google.com/store/apps/details?id=com.rohit.pbl_fitness_app");
                 },
               ),
 
@@ -348,7 +340,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                     setState(() {
                       darkThemeEnabled = !darkThemeEnabled;
                     });
-                    ThemeBuilder.of(context).changeTheme();
+                    ThemeBuilder.of(context)?.changeTheme();
                   },
                 ),
               ),

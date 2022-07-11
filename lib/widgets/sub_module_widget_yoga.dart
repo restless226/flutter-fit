@@ -5,9 +5,7 @@ import 'package:pbl_fitness_app/data/yoga_data.dart';
 class SubModuleWidgetYoga extends StatefulWidget {
   final String ID;
 
-  SubModuleWidgetYoga(
-    @required this.ID,
-  );
+  SubModuleWidgetYoga(this.ID);
 
   @override
   _SubModuleWidgetYogaState createState() => _SubModuleWidgetYogaState();
@@ -16,22 +14,22 @@ class SubModuleWidgetYoga extends StatefulWidget {
 class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
   @override
   Widget build(BuildContext context) {
-    List<Yoga> _yogaList = YOGA_DATA.where((element) {
-      return element.id.contains(widget.ID);
+    List<Yoga?>? _yogaList = YOGA_DATA.where((element) {
+      return element.id!.contains(widget.ID);
     }).toList();
 
     print("printing LIST...");
     for (int i = 0; i < _yogaList.length; i++) {
-      print(_yogaList.elementAt(i).id);
-      print(_yogaList.elementAt(i).title);
-      print(_yogaList.elementAt(i).category);
+      print(_yogaList.elementAt(i)?.id);
+      print(_yogaList.elementAt(i)?.title);
+      print(_yogaList.elementAt(i)?.category);
     }
 
     return Scaffold(
       appBar: AppBar(
         title: Center(
             child: Text(
-          _yogaList.elementAt(0).title,
+          (_yogaList.elementAt(0)?.title).toString(),
           style: TextStyle(
               fontSize: 15,
               fontFamily: 'QuickSand',
@@ -65,7 +63,7 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                   // clipBehavior: Clip.hardEdge,
                   child: Center(
                     child: Image.asset(
-                      _yogaList.elementAt(0).imageUrl,
+                      (_yogaList.elementAt(0)?.imageUrl).toString(),
                       fit: BoxFit.cover,
                       width: MediaQuery.of(context).size.width,
                       // height: 180,
@@ -97,7 +95,7 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                       ),
 
                       Text(
-                        _yogaList.elementAt(0).title,
+                        (_yogaList.elementAt(0)?.title).toString(),
                         style: TextStyle(
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
@@ -130,7 +128,7 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                       ),
 
                       Text(
-                        _yogaList.elementAt(0).difficulty,
+                        (_yogaList.elementAt(0)?.difficulty).toString(),
                         style: TextStyle(
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
@@ -163,7 +161,7 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                       ),
 
                       Text(
-                        _yogaList.elementAt(0).category,
+                        (_yogaList.elementAt(0)?.category).toString(),
                         style: TextStyle(
                             color: Theme.of(context).accentColor,
                             fontFamily: 'Quicksand',
@@ -206,15 +204,15 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                     padding: const EdgeInsets.all(8.0),
                     child: ListView.builder(
                       physics: NeverScrollableScrollPhysics(),
-                      itemCount: _yogaList[0].description.length,
+                      itemCount: _yogaList[0]?.description?.length,
                       itemBuilder: (context, index) {
-                        print(_yogaList[0].description[index]);
+                        print(_yogaList[0]?.description![index]);
                         print('');
                         return Text(
-                          _yogaList[0].description.length != 0
+                          _yogaList[0]?.description?.length != 0
                               ? (index + 1).toString() +
                                   '. ' +
-                                  _yogaList[0].description[index]
+                                  (_yogaList[0]?.description![index]).toString()
                               : 'description is null',
                           style: TextStyle(
                             color: Theme.of(context).accentColor,
@@ -259,15 +257,15 @@ class _SubModuleWidgetYogaState extends State<SubModuleWidgetYoga> {
                     padding: const EdgeInsets.all(8.0),
                     child: ListView.builder(
                       physics: NeverScrollableScrollPhysics(),
-                      itemCount: _yogaList[0].benefits.length,
+                      itemCount: _yogaList[0]?.benefits?.length,
                       itemBuilder: (context, index) {
-                        print(_yogaList[0].benefits[index]);
+                        print(_yogaList[0]?.benefits![index]);
                         print('');
                         return Text(
-                          _yogaList[0].benefits.length != 0
+                          _yogaList[0]?.benefits?.length != 0
                               ? (index + 1).toString() +
                                   '. ' +
-                                  _yogaList[0].benefits[index]
+                                 ( _yogaList[0]?.benefits![index]).toString()
                               : 'description is null',
                           style: TextStyle(
                             color: Theme.of(context).accentColor,

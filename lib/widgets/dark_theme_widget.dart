@@ -7,11 +7,11 @@ class ThemeBuilder extends StatefulWidget {
   // DEFAULT PARAMETER
   final Brightness defaultBrightness;
 
-  ThemeBuilder({this.builder, this.defaultBrightness});
+  ThemeBuilder({required this.builder, required this.defaultBrightness});
 
   // TO ACCESS THEME OBJECT WE NEED A STATIC OBJECT HERE IN THIS CLASS. HENCE:
-  static _ThemeBuilderState of(BuildContext context) {
-    return context.ancestorStateOfType(const TypeMatcher<_ThemeBuilderState>());
+  static _ThemeBuilderState? of(BuildContext context) {
+    return context.findAncestorStateOfType<_ThemeBuilderState>();
   }
 
   @override
@@ -19,7 +19,7 @@ class ThemeBuilder extends StatefulWidget {
 }
 
 class _ThemeBuilderState extends State<ThemeBuilder> {
-  Brightness _brightness;
+  Brightness? _brightness;
 
   @override
   void initState() {
@@ -41,12 +41,12 @@ class _ThemeBuilderState extends State<ThemeBuilder> {
     });
   }
 
-  Brightness getCurrentTheme() {
+  Brightness? getCurrentTheme() {
     return _brightness;
   }
 
   @override
   Widget build(BuildContext context) {
-    return widget.builder(context, _brightness);
+    return widget.builder(context, _brightness!);
   }
 }

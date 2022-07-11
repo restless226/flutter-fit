@@ -10,6 +10,7 @@ class RegisterScreen extends StatelessWidget {
 
     return Scaffold(
       body: Background(
+        key: Key('register'),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[

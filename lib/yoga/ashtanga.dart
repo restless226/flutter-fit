@@ -3,6 +3,9 @@ import 'package:pbl_fitness_app/widgets/module_widget.dart';
 
 //TODO
 class AshtangaScreen extends StatelessWidget {
+
+  Widget? _widget;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,15 +23,15 @@ class AshtangaScreen extends StatelessWidget {
         child: ListView(
           padding: const EdgeInsets.all(10),
           children: <Widget>[
-            ModuleWidget(null, '', ''),
+            ModuleWidget(_widget!, '', ''),
             SizedBox(
               height: 8,
             ),
-            ModuleWidget(null, '', ''),
+            ModuleWidget(_widget!, '', ''),
             SizedBox(
               height: 8,
             ),
-            ModuleWidget(null, '', ''),
+            ModuleWidget(_widget!, '', ''),
             SizedBox(
               height: 8,
             ),

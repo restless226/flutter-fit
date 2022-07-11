@@ -10,6 +10,7 @@ class LoginScreen extends StatelessWidget {
 
     return Scaffold(
       body: Background(
+        key: Key('login'),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[

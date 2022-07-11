@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pbl_fitness_app/screens/home_screen.dart';
 import 'package:pbl_fitness_app/widgets/dark_theme_widget.dart';
 import 'authentication/login.dart';
 
@@ -13,7 +12,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   @override
   void initState() {
     // TODO: implement initState
@@ -30,12 +28,12 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return ThemeBuilder(
       defaultBrightness: Brightness.dark,
-      builder: (context, _brightness){
+      builder: (context, _brightness) {
         return MaterialApp(
           theme: ThemeData(
             primarySwatch: Colors.deepOrange,
             accentColor: Colors.deepOrangeAccent,
-            fontFamily:'Lato',
+            fontFamily: 'Lato',
             brightness: _brightness,
           ),
           debugShowCheckedModeBanner: false,
@@ -47,5 +45,3 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-
-
