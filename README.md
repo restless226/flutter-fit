@@ -16,7 +16,6 @@ git clone https://github.com/restless226/rchat.git
 
 These are the prerequisites that you will need to run this app for your own.
 
-- This app uses Docker and NodeJS so you will have to create one for yourself.
 - Android Studio - To build the app for Android devices.
 - XCode - To build the app for IOS devices.
 
