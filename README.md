@@ -9,7 +9,7 @@
 To clone this repository copy and paste the following command in your terminal.
 
 ```
-git clone https://github.com/restless226/rchat.git
+git clone https://github.com/restless226/flutter_fit.git
 ```
 
 #### Prerequisites
