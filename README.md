@@ -1,4 +1,4 @@
-# flutter_fit
+# flutter-fit
 
 <p align="center">
   A fitness app which provides step-by-step instructions to perform workouts in fitness domains Yoga, Gym, Cardio.<br>
@@ -9,7 +9,7 @@
 To clone this repository copy and paste the following command in your terminal.
 
 ```
-git clone https://github.com/restless226/flutter_fit.git
+git clone https://github.com/restless226/flutter-fit.git
 ```
 
 #### Prerequisites
